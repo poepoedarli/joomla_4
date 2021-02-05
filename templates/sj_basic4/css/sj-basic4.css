@@ -1,0 +1,8146 @@
+@charset "UTF-8";
+/*!
+ * Font Awesome Free 5.14.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+.fa,
+.fas,
+.far,
+.fal,
+.fad,
+.fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.fa-lg {
+  font-size: 1.3333333333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+}
+
+.fa-border {
+  border: solid 0.08em #eee;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
+}
+
+.fa-pull-left {
+  float: left;
+}
+
+.fa-pull-right {
+  float: right;
+}
+
+.fa.fa-pull-left,
+.fas.fa-pull-left,
+.far.fa-pull-left,
+.fal.fa-pull-left,
+.fab.fa-pull-left {
+  margin-right: 0.3em;
+}
+.fa.fa-pull-right,
+.fas.fa-pull-right,
+.far.fa-pull-right,
+.fal.fa-pull-right,
+.fab.fa-pull-right {
+  margin-left: 0.3em;
+}
+
+.fa-spin {
+  animation: fa-spin 2s infinite linear;
+}
+
+.fa-pulse {
+  animation: fa-spin 1s infinite steps(8);
+}
+
+@keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  transform: scale(1, -1);
+}
+
+.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  transform: scale(-1, -1);
+}
+
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical,
+:root .fa-flip-both {
+  filter: none;
+}
+
+.fa-stack {
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  vertical-align: middle;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.fa-stack-1x {
+  line-height: inherit;
+}
+
+.fa-stack-2x {
+  font-size: 2em;
+}
+
+.fa-inverse {
+  color: #fff;
+}
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+readers do not read off random characters that represent icons */
+.fa-500px:before {
+  content: "";
+}
+
+.fa-accessible-icon:before {
+  content: "";
+}
+
+.fa-accusoft:before {
+  content: "";
+}
+
+.fa-acquisitions-incorporated:before {
+  content: "";
+}
+
+.fa-ad:before {
+  content: "";
+}
+
+.fa-address-book:before {
+  content: "";
+}
+
+.fa-address-card:before {
+  content: "";
+}
+
+.fa-adjust:before {
+  content: "";
+}
+
+.fa-adn:before {
+  content: "";
+}
+
+.fa-adobe:before {
+  content: "";
+}
+
+.fa-adversal:before {
+  content: "";
+}
+
+.fa-affiliatetheme:before {
+  content: "";
+}
+
+.fa-air-freshener:before {
+  content: "";
+}
+
+.fa-airbnb:before {
+  content: "";
+}
+
+.fa-algolia:before {
+  content: "";
+}
+
+.fa-align-center:before {
+  content: "";
+}
+
+.fa-align-justify:before {
+  content: "";
+}
+
+.fa-align-left:before {
+  content: "";
+}
+
+.fa-align-right:before {
+  content: "";
+}
+
+.fa-alipay:before {
+  content: "";
+}
+
+.fa-allergies:before {
+  content: "";
+}
+
+.fa-amazon:before {
+  content: "";
+}
+
+.fa-amazon-pay:before {
+  content: "";
+}
+
+.fa-ambulance:before {
+  content: "";
+}
+
+.fa-american-sign-language-interpreting:before {
+  content: "";
+}
+
+.fa-amilia:before {
+  content: "";
+}
+
+.fa-anchor:before {
+  content: "";
+}
+
+.fa-android:before {
+  content: "";
+}
+
+.fa-angellist:before {
+  content: "";
+}
+
+.fa-angle-double-down:before {
+  content: "";
+}
+
+.fa-angle-double-left:before {
+  content: "";
+}
+
+.fa-angle-double-right:before {
+  content: "";
+}
+
+.fa-angle-double-up:before {
+  content: "";
+}
+
+.fa-angle-down:before {
+  content: "";
+}
+
+.fa-angle-left:before {
+  content: "";
+}
+
+.fa-angle-right:before {
+  content: "";
+}
+
+.fa-angle-up:before {
+  content: "";
+}
+
+.fa-angry:before {
+  content: "";
+}
+
+.fa-angrycreative:before {
+  content: "";
+}
+
+.fa-angular:before {
+  content: "";
+}
+
+.fa-ankh:before {
+  content: "";
+}
+
+.fa-app-store:before {
+  content: "";
+}
+
+.fa-app-store-ios:before {
+  content: "";
+}
+
+.fa-apper:before {
+  content: "";
+}
+
+.fa-apple:before {
+  content: "";
+}
+
+.fa-apple-alt:before {
+  content: "";
+}
+
+.fa-apple-pay:before {
+  content: "";
+}
+
+.fa-archive:before {
+  content: "";
+}
+
+.fa-archway:before {
+  content: "";
+}
+
+.fa-arrow-alt-circle-down:before {
+  content: "";
+}
+
+.fa-arrow-alt-circle-left:before {
+  content: "";
+}
+
+.fa-arrow-alt-circle-right:before {
+  content: "";
+}
+
+.fa-arrow-alt-circle-up:before {
+  content: "";
+}
+
+.fa-arrow-circle-down:before {
+  content: "";
+}
+
+.fa-arrow-circle-left:before {
+  content: "";
+}
+
+.fa-arrow-circle-right:before {
+  content: "";
+}
+
+.fa-arrow-circle-up:before {
+  content: "";
+}
+
+.fa-arrow-down:before {
+  content: "";
+}
+
+.fa-arrow-left:before {
+  content: "";
+}
+
+.fa-arrow-right:before {
+  content: "";
+}
+
+.fa-arrow-up:before {
+  content: "";
+}
+
+.fa-arrows-alt:before {
+  content: "";
+}
+
+.fa-arrows-alt-h:before {
+  content: "";
+}
+
+.fa-arrows-alt-v:before {
+  content: "";
+}
+
+.fa-artstation:before {
+  content: "";
+}
+
+.fa-assistive-listening-systems:before {
+  content: "";
+}
+
+.fa-asterisk:before {
+  content: "";
+}
+
+.fa-asymmetrik:before {
+  content: "";
+}
+
+.fa-at:before {
+  content: "";
+}
+
+.fa-atlas:before {
+  content: "";
+}
+
+.fa-atlassian:before {
+  content: "";
+}
+
+.fa-atom:before {
+  content: "";
+}
+
+.fa-audible:before {
+  content: "";
+}
+
+.fa-audio-description:before {
+  content: "";
+}
+
+.fa-autoprefixer:before {
+  content: "";
+}
+
+.fa-avianex:before {
+  content: "";
+}
+
+.fa-aviato:before {
+  content: "";
+}
+
+.fa-award:before {
+  content: "";
+}
+
+.fa-aws:before {
+  content: "";
+}
+
+.fa-baby:before {
+  content: "";
+}
+
+.fa-baby-carriage:before {
+  content: "";
+}
+
+.fa-backspace:before {
+  content: "";
+}
+
+.fa-backward:before {
+  content: "";
+}
+
+.fa-bacon:before {
+  content: "";
+}
+
+.fa-bacteria:before {
+  content: "";
+}
+
+.fa-bacterium:before {
+  content: "";
+}
+
+.fa-bahai:before {
+  content: "";
+}
+
+.fa-balance-scale:before {
+  content: "";
+}
+
+.fa-balance-scale-left:before {
+  content: "";
+}
+
+.fa-balance-scale-right:before {
+  content: "";
+}
+
+.fa-ban:before {
+  content: "";
+}
+
+.fa-band-aid:before {
+  content: "";
+}
+
+.fa-bandcamp:before {
+  content: "";
+}
+
+.fa-barcode:before {
+  content: "";
+}
+
+.fa-bars:before {
+  content: "";
+}
+
+.fa-baseball-ball:before {
+  content: "";
+}
+
+.fa-basketball-ball:before {
+  content: "";
+}
+
+.fa-bath:before {
+  content: "";
+}
+
+.fa-battery-empty:before {
+  content: "";
+}
+
+.fa-battery-full:before {
+  content: "";
+}
+
+.fa-battery-half:before {
+  content: "";
+}
+
+.fa-battery-quarter:before {
+  content: "";
+}
+
+.fa-battery-three-quarters:before {
+  content: "";
+}
+
+.fa-battle-net:before {
+  content: "";
+}
+
+.fa-bed:before {
+  content: "";
+}
+
+.fa-beer:before {
+  content: "";
+}
+
+.fa-behance:before {
+  content: "";
+}
+
+.fa-behance-square:before {
+  content: "";
+}
+
+.fa-bell:before {
+  content: "";
+}
+
+.fa-bell-slash:before {
+  content: "";
+}
+
+.fa-bezier-curve:before {
+  content: "";
+}
+
+.fa-bible:before {
+  content: "";
+}
+
+.fa-bicycle:before {
+  content: "";
+}
+
+.fa-biking:before {
+  content: "";
+}
+
+.fa-bimobject:before {
+  content: "";
+}
+
+.fa-binoculars:before {
+  content: "";
+}
+
+.fa-biohazard:before {
+  content: "";
+}
+
+.fa-birthday-cake:before {
+  content: "";
+}
+
+.fa-bitbucket:before {
+  content: "";
+}
+
+.fa-bitcoin:before {
+  content: "";
+}
+
+.fa-bity:before {
+  content: "";
+}
+
+.fa-black-tie:before {
+  content: "";
+}
+
+.fa-blackberry:before {
+  content: "";
+}
+
+.fa-blender:before {
+  content: "";
+}
+
+.fa-blender-phone:before {
+  content: "";
+}
+
+.fa-blind:before {
+  content: "";
+}
+
+.fa-blog:before {
+  content: "";
+}
+
+.fa-blogger:before {
+  content: "";
+}
+
+.fa-blogger-b:before {
+  content: "";
+}
+
+.fa-bluetooth:before {
+  content: "";
+}
+
+.fa-bluetooth-b:before {
+  content: "";
+}
+
+.fa-bold:before {
+  content: "";
+}
+
+.fa-bolt:before {
+  content: "";
+}
+
+.fa-bomb:before {
+  content: "";
+}
+
+.fa-bone:before {
+  content: "";
+}
+
+.fa-bong:before {
+  content: "";
+}
+
+.fa-book:before {
+  content: "";
+}
+
+.fa-book-dead:before {
+  content: "";
+}
+
+.fa-book-medical:before {
+  content: "";
+}
+
+.fa-book-open:before {
+  content: "";
+}
+
+.fa-book-reader:before {
+  content: "";
+}
+
+.fa-bookmark:before {
+  content: "";
+}
+
+.fa-bootstrap:before {
+  content: "";
+}
+
+.fa-border-all:before {
+  content: "";
+}
+
+.fa-border-none:before {
+  content: "";
+}
+
+.fa-border-style:before {
+  content: "";
+}
+
+.fa-bowling-ball:before {
+  content: "";
+}
+
+.fa-box:before {
+  content: "";
+}
+
+.fa-box-open:before {
+  content: "";
+}
+
+.fa-box-tissue:before {
+  content: "";
+}
+
+.fa-boxes:before {
+  content: "";
+}
+
+.fa-braille:before {
+  content: "";
+}
+
+.fa-brain:before {
+  content: "";
+}
+
+.fa-bread-slice:before {
+  content: "";
+}
+
+.fa-briefcase:before {
+  content: "";
+}
+
+.fa-briefcase-medical:before {
+  content: "";
+}
+
+.fa-broadcast-tower:before {
+  content: "";
+}
+
+.fa-broom:before {
+  content: "";
+}
+
+.fa-brush:before {
+  content: "";
+}
+
+.fa-btc:before {
+  content: "";
+}
+
+.fa-buffer:before {
+  content: "";
+}
+
+.fa-bug:before {
+  content: "";
+}
+
+.fa-building:before {
+  content: "";
+}
+
+.fa-bullhorn:before {
+  content: "";
+}
+
+.fa-bullseye:before {
+  content: "";
+}
+
+.fa-burn:before {
+  content: "";
+}
+
+.fa-buromobelexperte:before {
+  content: "";
+}
+
+.fa-bus:before {
+  content: "";
+}
+
+.fa-bus-alt:before {
+  content: "";
+}
+
+.fa-business-time:before {
+  content: "";
+}
+
+.fa-buy-n-large:before {
+  content: "";
+}
+
+.fa-buysellads:before {
+  content: "";
+}
+
+.fa-calculator:before {
+  content: "";
+}
+
+.fa-calendar:before {
+  content: "";
+}
+
+.fa-calendar-alt:before {
+  content: "";
+}
+
+.fa-calendar-check:before {
+  content: "";
+}
+
+.fa-calendar-day:before {
+  content: "";
+}
+
+.fa-calendar-minus:before {
+  content: "";
+}
+
+.fa-calendar-plus:before {
+  content: "";
+}
+
+.fa-calendar-times:before {
+  content: "";
+}
+
+.fa-calendar-week:before {
+  content: "";
+}
+
+.fa-camera:before {
+  content: "";
+}
+
+.fa-camera-retro:before {
+  content: "";
+}
+
+.fa-campground:before {
+  content: "";
+}
+
+.fa-canadian-maple-leaf:before {
+  content: "";
+}
+
+.fa-candy-cane:before {
+  content: "";
+}
+
+.fa-cannabis:before {
+  content: "";
+}
+
+.fa-capsules:before {
+  content: "";
+}
+
+.fa-car:before {
+  content: "";
+}
+
+.fa-car-alt:before {
+  content: "";
+}
+
+.fa-car-battery:before {
+  content: "";
+}
+
+.fa-car-crash:before {
+  content: "";
+}
+
+.fa-car-side:before {
+  content: "";
+}
+
+.fa-caravan:before {
+  content: "";
+}
+
+.fa-caret-down:before {
+  content: "";
+}
+
+.fa-caret-left:before {
+  content: "";
+}
+
+.fa-caret-right:before {
+  content: "";
+}
+
+.fa-caret-square-down:before {
+  content: "";
+}
+
+.fa-caret-square-left:before {
+  content: "";
+}
+
+.fa-caret-square-right:before {
+  content: "";
+}
+
+.fa-caret-square-up:before {
+  content: "";
+}
+
+.fa-caret-up:before {
+  content: "";
+}
+
+.fa-carrot:before {
+  content: "";
+}
+
+.fa-cart-arrow-down:before {
+  content: "";
+}
+
+.fa-cart-plus:before {
+  content: "";
+}
+
+.fa-cash-register:before {
+  content: "";
+}
+
+.fa-cat:before {
+  content: "";
+}
+
+.fa-cc-amazon-pay:before {
+  content: "";
+}
+
+.fa-cc-amex:before {
+  content: "";
+}
+
+.fa-cc-apple-pay:before {
+  content: "";
+}
+
+.fa-cc-diners-club:before {
+  content: "";
+}
+
+.fa-cc-discover:before {
+  content: "";
+}
+
+.fa-cc-jcb:before {
+  content: "";
+}
+
+.fa-cc-mastercard:before {
+  content: "";
+}
+
+.fa-cc-paypal:before {
+  content: "";
+}
+
+.fa-cc-stripe:before {
+  content: "";
+}
+
+.fa-cc-visa:before {
+  content: "";
+}
+
+.fa-centercode:before {
+  content: "";
+}
+
+.fa-centos:before {
+  content: "";
+}
+
+.fa-certificate:before {
+  content: "";
+}
+
+.fa-chair:before {
+  content: "";
+}
+
+.fa-chalkboard:before {
+  content: "";
+}
+
+.fa-chalkboard-teacher:before {
+  content: "";
+}
+
+.fa-charging-station:before {
+  content: "";
+}
+
+.fa-chart-area:before {
+  content: "";
+}
+
+.fa-chart-bar:before {
+  content: "";
+}
+
+.fa-chart-line:before {
+  content: "";
+}
+
+.fa-chart-pie:before {
+  content: "";
+}
+
+.fa-check:before {
+  content: "";
+}
+
+.fa-check-circle:before {
+  content: "";
+}
+
+.fa-check-double:before {
+  content: "";
+}
+
+.fa-check-square:before {
+  content: "";
+}
+
+.fa-cheese:before {
+  content: "";
+}
+
+.fa-chess:before {
+  content: "";
+}
+
+.fa-chess-bishop:before {
+  content: "";
+}
+
+.fa-chess-board:before {
+  content: "";
+}
+
+.fa-chess-king:before {
+  content: "";
+}
+
+.fa-chess-knight:before {
+  content: "";
+}
+
+.fa-chess-pawn:before {
+  content: "";
+}
+
+.fa-chess-queen:before {
+  content: "";
+}
+
+.fa-chess-rook:before {
+  content: "";
+}
+
+.fa-chevron-circle-down:before {
+  content: "";
+}
+
+.fa-chevron-circle-left:before {
+  content: "";
+}
+
+.fa-chevron-circle-right:before {
+  content: "";
+}
+
+.fa-chevron-circle-up:before {
+  content: "";
+}
+
+.fa-chevron-down:before {
+  content: "";
+}
+
+.fa-chevron-left:before {
+  content: "";
+}
+
+.fa-chevron-right:before {
+  content: "";
+}
+
+.fa-chevron-up:before {
+  content: "";
+}
+
+.fa-child:before {
+  content: "";
+}
+
+.fa-chrome:before {
+  content: "";
+}
+
+.fa-chromecast:before {
+  content: "";
+}
+
+.fa-church:before {
+  content: "";
+}
+
+.fa-circle:before {
+  content: "";
+}
+
+.fa-circle-notch:before {
+  content: "";
+}
+
+.fa-city:before {
+  content: "";
+}
+
+.fa-clinic-medical:before {
+  content: "";
+}
+
+.fa-clipboard:before {
+  content: "";
+}
+
+.fa-clipboard-check:before {
+  content: "";
+}
+
+.fa-clipboard-list:before {
+  content: "";
+}
+
+.fa-clock:before {
+  content: "";
+}
+
+.fa-clone:before {
+  content: "";
+}
+
+.fa-closed-captioning:before {
+  content: "";
+}
+
+.fa-cloud:before {
+  content: "";
+}
+
+.fa-cloud-download-alt:before {
+  content: "";
+}
+
+.fa-cloud-meatball:before {
+  content: "";
+}
+
+.fa-cloud-moon:before {
+  content: "";
+}
+
+.fa-cloud-moon-rain:before {
+  content: "";
+}
+
+.fa-cloud-rain:before {
+  content: "";
+}
+
+.fa-cloud-showers-heavy:before {
+  content: "";
+}
+
+.fa-cloud-sun:before {
+  content: "";
+}
+
+.fa-cloud-sun-rain:before {
+  content: "";
+}
+
+.fa-cloud-upload-alt:before {
+  content: "";
+}
+
+.fa-cloudscale:before {
+  content: "";
+}
+
+.fa-cloudsmith:before {
+  content: "";
+}
+
+.fa-cloudversify:before {
+  content: "";
+}
+
+.fa-cocktail:before {
+  content: "";
+}
+
+.fa-code:before {
+  content: "";
+}
+
+.fa-code-branch:before {
+  content: "";
+}
+
+.fa-codepen:before {
+  content: "";
+}
+
+.fa-codiepie:before {
+  content: "";
+}
+
+.fa-coffee:before {
+  content: "";
+}
+
+.fa-cog:before {
+  content: "";
+}
+
+.fa-cogs:before {
+  content: "";
+}
+
+.fa-coins:before {
+  content: "";
+}
+
+.fa-columns:before {
+  content: "";
+}
+
+.fa-comment:before {
+  content: "";
+}
+
+.fa-comment-alt:before {
+  content: "";
+}
+
+.fa-comment-dollar:before {
+  content: "";
+}
+
+.fa-comment-dots:before {
+  content: "";
+}
+
+.fa-comment-medical:before {
+  content: "";
+}
+
+.fa-comment-slash:before {
+  content: "";
+}
+
+.fa-comments:before {
+  content: "";
+}
+
+.fa-comments-dollar:before {
+  content: "";
+}
+
+.fa-compact-disc:before {
+  content: "";
+}
+
+.fa-compass:before {
+  content: "";
+}
+
+.fa-compress:before {
+  content: "";
+}
+
+.fa-compress-alt:before {
+  content: "";
+}
+
+.fa-compress-arrows-alt:before {
+  content: "";
+}
+
+.fa-concierge-bell:before {
+  content: "";
+}
+
+.fa-confluence:before {
+  content: "";
+}
+
+.fa-connectdevelop:before {
+  content: "";
+}
+
+.fa-contao:before {
+  content: "";
+}
+
+.fa-cookie:before {
+  content: "";
+}
+
+.fa-cookie-bite:before {
+  content: "";
+}
+
+.fa-copy:before {
+  content: "";
+}
+
+.fa-copyright:before {
+  content: "";
+}
+
+.fa-cotton-bureau:before {
+  content: "";
+}
+
+.fa-couch:before {
+  content: "";
+}
+
+.fa-cpanel:before {
+  content: "";
+}
+
+.fa-creative-commons:before {
+  content: "";
+}
+
+.fa-creative-commons-by:before {
+  content: "";
+}
+
+.fa-creative-commons-nc:before {
+  content: "";
+}
+
+.fa-creative-commons-nc-eu:before {
+  content: "";
+}
+
+.fa-creative-commons-nc-jp:before {
+  content: "";
+}
+
+.fa-creative-commons-nd:before {
+  content: "";
+}
+
+.fa-creative-commons-pd:before {
+  content: "";
+}
+
+.fa-creative-commons-pd-alt:before {
+  content: "";
+}
+
+.fa-creative-commons-remix:before {
+  content: "";
+}
+
+.fa-creative-commons-sa:before {
+  content: "";
+}
+
+.fa-creative-commons-sampling:before {
+  content: "";
+}
+
+.fa-creative-commons-sampling-plus:before {
+  content: "";
+}
+
+.fa-creative-commons-share:before {
+  content: "";
+}
+
+.fa-creative-commons-zero:before {
+  content: "";
+}
+
+.fa-credit-card:before {
+  content: "";
+}
+
+.fa-critical-role:before {
+  content: "";
+}
+
+.fa-crop:before {
+  content: "";
+}
+
+.fa-crop-alt:before {
+  content: "";
+}
+
+.fa-cross:before {
+  content: "";
+}
+
+.fa-crosshairs:before {
+  content: "";
+}
+
+.fa-crow:before {
+  content: "";
+}
+
+.fa-crown:before {
+  content: "";
+}
+
+.fa-crutch:before {
+  content: "";
+}
+
+.fa-css3:before {
+  content: "";
+}
+
+.fa-css3-alt:before {
+  content: "";
+}
+
+.fa-cube:before {
+  content: "";
+}
+
+.fa-cubes:before {
+  content: "";
+}
+
+.fa-cut:before {
+  content: "";
+}
+
+.fa-cuttlefish:before {
+  content: "";
+}
+
+.fa-d-and-d:before {
+  content: "";
+}
+
+.fa-d-and-d-beyond:before {
+  content: "";
+}
+
+.fa-dailymotion:before {
+  content: "";
+}
+
+.fa-dashcube:before {
+  content: "";
+}
+
+.fa-database:before {
+  content: "";
+}
+
+.fa-deaf:before {
+  content: "";
+}
+
+.fa-deezer:before {
+  content: "";
+}
+
+.fa-delicious:before {
+  content: "";
+}
+
+.fa-democrat:before {
+  content: "";
+}
+
+.fa-deploydog:before {
+  content: "";
+}
+
+.fa-deskpro:before {
+  content: "";
+}
+
+.fa-desktop:before {
+  content: "";
+}
+
+.fa-dev:before {
+  content: "";
+}
+
+.fa-deviantart:before {
+  content: "";
+}
+
+.fa-dharmachakra:before {
+  content: "";
+}
+
+.fa-dhl:before {
+  content: "";
+}
+
+.fa-diagnoses:before {
+  content: "";
+}
+
+.fa-diaspora:before {
+  content: "";
+}
+
+.fa-dice:before {
+  content: "";
+}
+
+.fa-dice-d20:before {
+  content: "";
+}
+
+.fa-dice-d6:before {
+  content: "";
+}
+
+.fa-dice-five:before {
+  content: "";
+}
+
+.fa-dice-four:before {
+  content: "";
+}
+
+.fa-dice-one:before {
+  content: "";
+}
+
+.fa-dice-six:before {
+  content: "";
+}
+
+.fa-dice-three:before {
+  content: "";
+}
+
+.fa-dice-two:before {
+  content: "";
+}
+
+.fa-digg:before {
+  content: "";
+}
+
+.fa-digital-ocean:before {
+  content: "";
+}
+
+.fa-digital-tachograph:before {
+  content: "";
+}
+
+.fa-directions:before {
+  content: "";
+}
+
+.fa-discord:before {
+  content: "";
+}
+
+.fa-discourse:before {
+  content: "";
+}
+
+.fa-disease:before {
+  content: "";
+}
+
+.fa-divide:before {
+  content: "";
+}
+
+.fa-dizzy:before {
+  content: "";
+}
+
+.fa-dna:before {
+  content: "";
+}
+
+.fa-dochub:before {
+  content: "";
+}
+
+.fa-docker:before {
+  content: "";
+}
+
+.fa-dog:before {
+  content: "";
+}
+
+.fa-dollar-sign:before {
+  content: "";
+}
+
+.fa-dolly:before {
+  content: "";
+}
+
+.fa-dolly-flatbed:before {
+  content: "";
+}
+
+.fa-donate:before {
+  content: "";
+}
+
+.fa-door-closed:before {
+  content: "";
+}
+
+.fa-door-open:before {
+  content: "";
+}
+
+.fa-dot-circle:before {
+  content: "";
+}
+
+.fa-dove:before {
+  content: "";
+}
+
+.fa-download:before {
+  content: "";
+}
+
+.fa-draft2digital:before {
+  content: "";
+}
+
+.fa-drafting-compass:before {
+  content: "";
+}
+
+.fa-dragon:before {
+  content: "";
+}
+
+.fa-draw-polygon:before {
+  content: "";
+}
+
+.fa-dribbble:before {
+  content: "";
+}
+
+.fa-dribbble-square:before {
+  content: "";
+}
+
+.fa-dropbox:before {
+  content: "";
+}
+
+.fa-drum:before {
+  content: "";
+}
+
+.fa-drum-steelpan:before {
+  content: "";
+}
+
+.fa-drumstick-bite:before {
+  content: "";
+}
+
+.fa-drupal:before {
+  content: "";
+}
+
+.fa-dumbbell:before {
+  content: "";
+}
+
+.fa-dumpster:before {
+  content: "";
+}
+
+.fa-dumpster-fire:before {
+  content: "";
+}
+
+.fa-dungeon:before {
+  content: "";
+}
+
+.fa-dyalog:before {
+  content: "";
+}
+
+.fa-earlybirds:before {
+  content: "";
+}
+
+.fa-ebay:before {
+  content: "";
+}
+
+.fa-edge:before {
+  content: "";
+}
+
+.fa-edge-legacy:before {
+  content: "";
+}
+
+.fa-edit:before {
+  content: "";
+}
+
+.fa-egg:before {
+  content: "";
+}
+
+.fa-eject:before {
+  content: "";
+}
+
+.fa-elementor:before {
+  content: "";
+}
+
+.fa-ellipsis-h:before {
+  content: "";
+}
+
+.fa-ellipsis-v:before {
+  content: "";
+}
+
+.fa-ello:before {
+  content: "";
+}
+
+.fa-ember:before {
+  content: "";
+}
+
+.fa-empire:before {
+  content: "";
+}
+
+.fa-envelope:before {
+  content: "";
+}
+
+.fa-envelope-open:before {
+  content: "";
+}
+
+.fa-envelope-open-text:before {
+  content: "";
+}
+
+.fa-envelope-square:before {
+  content: "";
+}
+
+.fa-envira:before {
+  content: "";
+}
+
+.fa-equals:before {
+  content: "";
+}
+
+.fa-eraser:before {
+  content: "";
+}
+
+.fa-erlang:before {
+  content: "";
+}
+
+.fa-ethereum:before {
+  content: "";
+}
+
+.fa-ethernet:before {
+  content: "";
+}
+
+.fa-etsy:before {
+  content: "";
+}
+
+.fa-euro-sign:before {
+  content: "";
+}
+
+.fa-evernote:before {
+  content: "";
+}
+
+.fa-exchange-alt:before {
+  content: "";
+}
+
+.fa-exclamation:before {
+  content: "";
+}
+
+.fa-exclamation-circle:before {
+  content: "";
+}
+
+.fa-exclamation-triangle:before {
+  content: "";
+}
+
+.fa-expand:before {
+  content: "";
+}
+
+.fa-expand-alt:before {
+  content: "";
+}
+
+.fa-expand-arrows-alt:before {
+  content: "";
+}
+
+.fa-expeditedssl:before {
+  content: "";
+}
+
+.fa-external-link-alt:before {
+  content: "";
+}
+
+.fa-external-link-square-alt:before {
+  content: "";
+}
+
+.fa-eye:before {
+  content: "";
+}
+
+.fa-eye-dropper:before {
+  content: "";
+}
+
+.fa-eye-slash:before {
+  content: "";
+}
+
+.fa-facebook:before {
+  content: "";
+}
+
+.fa-facebook-f:before {
+  content: "";
+}
+
+.fa-facebook-messenger:before {
+  content: "";
+}
+
+.fa-facebook-square:before {
+  content: "";
+}
+
+.fa-fan:before {
+  content: "";
+}
+
+.fa-fantasy-flight-games:before {
+  content: "";
+}
+
+.fa-fast-backward:before {
+  content: "";
+}
+
+.fa-fast-forward:before {
+  content: "";
+}
+
+.fa-faucet:before {
+  content: "";
+}
+
+.fa-fax:before {
+  content: "";
+}
+
+.fa-feather:before {
+  content: "";
+}
+
+.fa-feather-alt:before {
+  content: "";
+}
+
+.fa-fedex:before {
+  content: "";
+}
+
+.fa-fedora:before {
+  content: "";
+}
+
+.fa-female:before {
+  content: "";
+}
+
+.fa-fighter-jet:before {
+  content: "";
+}
+
+.fa-figma:before {
+  content: "";
+}
+
+.fa-file:before {
+  content: "";
+}
+
+.fa-file-alt:before {
+  content: "";
+}
+
+.fa-file-archive:before {
+  content: "";
+}
+
+.fa-file-audio:before {
+  content: "";
+}
+
+.fa-file-code:before {
+  content: "";
+}
+
+.fa-file-contract:before {
+  content: "";
+}
+
+.fa-file-csv:before {
+  content: "";
+}
+
+.fa-file-download:before {
+  content: "";
+}
+
+.fa-file-excel:before {
+  content: "";
+}
+
+.fa-file-export:before {
+  content: "";
+}
+
+.fa-file-image:before {
+  content: "";
+}
+
+.fa-file-import:before {
+  content: "";
+}
+
+.fa-file-invoice:before {
+  content: "";
+}
+
+.fa-file-invoice-dollar:before {
+  content: "";
+}
+
+.fa-file-medical:before {
+  content: "";
+}
+
+.fa-file-medical-alt:before {
+  content: "";
+}
+
+.fa-file-pdf:before {
+  content: "";
+}
+
+.fa-file-powerpoint:before {
+  content: "";
+}
+
+.fa-file-prescription:before {
+  content: "";
+}
+
+.fa-file-signature:before {
+  content: "";
+}
+
+.fa-file-upload:before {
+  content: "";
+}
+
+.fa-file-video:before {
+  content: "";
+}
+
+.fa-file-word:before {
+  content: "";
+}
+
+.fa-fill:before {
+  content: "";
+}
+
+.fa-fill-drip:before {
+  content: "";
+}
+
+.fa-film:before {
+  content: "";
+}
+
+.fa-filter:before {
+  content: "";
+}
+
+.fa-fingerprint:before {
+  content: "";
+}
+
+.fa-fire:before {
+  content: "";
+}
+
+.fa-fire-alt:before {
+  content: "";
+}
+
+.fa-fire-extinguisher:before {
+  content: "";
+}
+
+.fa-firefox:before {
+  content: "";
+}
+
+.fa-firefox-browser:before {
+  content: "";
+}
+
+.fa-first-aid:before {
+  content: "";
+}
+
+.fa-first-order:before {
+  content: "";
+}
+
+.fa-first-order-alt:before {
+  content: "";
+}
+
+.fa-firstdraft:before {
+  content: "";
+}
+
+.fa-fish:before {
+  content: "";
+}
+
+.fa-fist-raised:before {
+  content: "";
+}
+
+.fa-flag:before {
+  content: "";
+}
+
+.fa-flag-checkered:before {
+  content: "";
+}
+
+.fa-flag-usa:before {
+  content: "";
+}
+
+.fa-flask:before {
+  content: "";
+}
+
+.fa-flickr:before {
+  content: "";
+}
+
+.fa-flipboard:before {
+  content: "";
+}
+
+.fa-flushed:before {
+  content: "";
+}
+
+.fa-fly:before {
+  content: "";
+}
+
+.fa-folder:before {
+  content: "";
+}
+
+.fa-folder-minus:before {
+  content: "";
+}
+
+.fa-folder-open:before {
+  content: "";
+}
+
+.fa-folder-plus:before {
+  content: "";
+}
+
+.fa-font:before {
+  content: "";
+}
+
+.fa-font-awesome:before {
+  content: "";
+}
+
+.fa-font-awesome-alt:before {
+  content: "";
+}
+
+.fa-font-awesome-flag:before {
+  content: "";
+}
+
+.fa-font-awesome-logo-full:before {
+  content: "";
+}
+
+.fa-fonticons:before {
+  content: "";
+}
+
+.fa-fonticons-fi:before {
+  content: "";
+}
+
+.fa-football-ball:before {
+  content: "";
+}
+
+.fa-fort-awesome:before {
+  content: "";
+}
+
+.fa-fort-awesome-alt:before {
+  content: "";
+}
+
+.fa-forumbee:before {
+  content: "";
+}
+
+.fa-forward:before {
+  content: "";
+}
+
+.fa-foursquare:before {
+  content: "";
+}
+
+.fa-free-code-camp:before {
+  content: "";
+}
+
+.fa-freebsd:before {
+  content: "";
+}
+
+.fa-frog:before {
+  content: "";
+}
+
+.fa-frown:before {
+  content: "";
+}
+
+.fa-frown-open:before {
+  content: "";
+}
+
+.fa-fulcrum:before {
+  content: "";
+}
+
+.fa-funnel-dollar:before {
+  content: "";
+}
+
+.fa-futbol:before {
+  content: "";
+}
+
+.fa-galactic-republic:before {
+  content: "";
+}
+
+.fa-galactic-senate:before {
+  content: "";
+}
+
+.fa-gamepad:before {
+  content: "";
+}
+
+.fa-gas-pump:before {
+  content: "";
+}
+
+.fa-gavel:before {
+  content: "";
+}
+
+.fa-gem:before {
+  content: "";
+}
+
+.fa-genderless:before {
+  content: "";
+}
+
+.fa-get-pocket:before {
+  content: "";
+}
+
+.fa-gg:before {
+  content: "";
+}
+
+.fa-gg-circle:before {
+  content: "";
+}
+
+.fa-ghost:before {
+  content: "";
+}
+
+.fa-gift:before {
+  content: "";
+}
+
+.fa-gifts:before {
+  content: "";
+}
+
+.fa-git:before {
+  content: "";
+}
+
+.fa-git-alt:before {
+  content: "";
+}
+
+.fa-git-square:before {
+  content: "";
+}
+
+.fa-github:before {
+  content: "";
+}
+
+.fa-github-alt:before {
+  content: "";
+}
+
+.fa-github-square:before {
+  content: "";
+}
+
+.fa-gitkraken:before {
+  content: "";
+}
+
+.fa-gitlab:before {
+  content: "";
+}
+
+.fa-gitter:before {
+  content: "";
+}
+
+.fa-glass-cheers:before {
+  content: "";
+}
+
+.fa-glass-martini:before {
+  content: "";
+}
+
+.fa-glass-martini-alt:before {
+  content: "";
+}
+
+.fa-glass-whiskey:before {
+  content: "";
+}
+
+.fa-glasses:before {
+  content: "";
+}
+
+.fa-glide:before {
+  content: "";
+}
+
+.fa-glide-g:before {
+  content: "";
+}
+
+.fa-globe:before {
+  content: "";
+}
+
+.fa-globe-africa:before {
+  content: "";
+}
+
+.fa-globe-americas:before {
+  content: "";
+}
+
+.fa-globe-asia:before {
+  content: "";
+}
+
+.fa-globe-europe:before {
+  content: "";
+}
+
+.fa-gofore:before {
+  content: "";
+}
+
+.fa-golf-ball:before {
+  content: "";
+}
+
+.fa-goodreads:before {
+  content: "";
+}
+
+.fa-goodreads-g:before {
+  content: "";
+}
+
+.fa-google:before {
+  content: "";
+}
+
+.fa-google-drive:before {
+  content: "";
+}
+
+.fa-google-pay:before {
+  content: "";
+}
+
+.fa-google-play:before {
+  content: "";
+}
+
+.fa-google-plus:before {
+  content: "";
+}
+
+.fa-google-plus-g:before {
+  content: "";
+}
+
+.fa-google-plus-square:before {
+  content: "";
+}
+
+.fa-google-wallet:before {
+  content: "";
+}
+
+.fa-gopuram:before {
+  content: "";
+}
+
+.fa-graduation-cap:before {
+  content: "";
+}
+
+.fa-gratipay:before {
+  content: "";
+}
+
+.fa-grav:before {
+  content: "";
+}
+
+.fa-greater-than:before {
+  content: "";
+}
+
+.fa-greater-than-equal:before {
+  content: "";
+}
+
+.fa-grimace:before {
+  content: "";
+}
+
+.fa-grin:before {
+  content: "";
+}
+
+.fa-grin-alt:before {
+  content: "";
+}
+
+.fa-grin-beam:before {
+  content: "";
+}
+
+.fa-grin-beam-sweat:before {
+  content: "";
+}
+
+.fa-grin-hearts:before {
+  content: "";
+}
+
+.fa-grin-squint:before {
+  content: "";
+}
+
+.fa-grin-squint-tears:before {
+  content: "";
+}
+
+.fa-grin-stars:before {
+  content: "";
+}
+
+.fa-grin-tears:before {
+  content: "";
+}
+
+.fa-grin-tongue:before {
+  content: "";
+}
+
+.fa-grin-tongue-squint:before {
+  content: "";
+}
+
+.fa-grin-tongue-wink:before {
+  content: "";
+}
+
+.fa-grin-wink:before {
+  content: "";
+}
+
+.fa-grip-horizontal:before {
+  content: "";
+}
+
+.fa-grip-lines:before {
+  content: "";
+}
+
+.fa-grip-lines-vertical:before {
+  content: "";
+}
+
+.fa-grip-vertical:before {
+  content: "";
+}
+
+.fa-gripfire:before {
+  content: "";
+}
+
+.fa-grunt:before {
+  content: "";
+}
+
+.fa-guitar:before {
+  content: "";
+}
+
+.fa-gulp:before {
+  content: "";
+}
+
+.fa-h-square:before {
+  content: "";
+}
+
+.fa-hacker-news:before {
+  content: "";
+}
+
+.fa-hacker-news-square:before {
+  content: "";
+}
+
+.fa-hackerrank:before {
+  content: "";
+}
+
+.fa-hamburger:before {
+  content: "";
+}
+
+.fa-hammer:before {
+  content: "";
+}
+
+.fa-hamsa:before {
+  content: "";
+}
+
+.fa-hand-holding:before {
+  content: "";
+}
+
+.fa-hand-holding-heart:before {
+  content: "";
+}
+
+.fa-hand-holding-medical:before {
+  content: "";
+}
+
+.fa-hand-holding-usd:before {
+  content: "";
+}
+
+.fa-hand-holding-water:before {
+  content: "";
+}
+
+.fa-hand-lizard:before {
+  content: "";
+}
+
+.fa-hand-middle-finger:before {
+  content: "";
+}
+
+.fa-hand-paper:before {
+  content: "";
+}
+
+.fa-hand-peace:before {
+  content: "";
+}
+
+.fa-hand-point-down:before {
+  content: "";
+}
+
+.fa-hand-point-left:before {
+  content: "";
+}
+
+.fa-hand-point-right:before {
+  content: "";
+}
+
+.fa-hand-point-up:before {
+  content: "";
+}
+
+.fa-hand-pointer:before {
+  content: "";
+}
+
+.fa-hand-rock:before {
+  content: "";
+}
+
+.fa-hand-scissors:before {
+  content: "";
+}
+
+.fa-hand-sparkles:before {
+  content: "";
+}
+
+.fa-hand-spock:before {
+  content: "";
+}
+
+.fa-hands:before {
+  content: "";
+}
+
+.fa-hands-helping:before {
+  content: "";
+}
+
+.fa-hands-wash:before {
+  content: "";
+}
+
+.fa-handshake:before {
+  content: "";
+}
+
+.fa-handshake-alt-slash:before {
+  content: "";
+}
+
+.fa-handshake-slash:before {
+  content: "";
+}
+
+.fa-hanukiah:before {
+  content: "";
+}
+
+.fa-hard-hat:before {
+  content: "";
+}
+
+.fa-hashtag:before {
+  content: "";
+}
+
+.fa-hat-cowboy:before {
+  content: "";
+}
+
+.fa-hat-cowboy-side:before {
+  content: "";
+}
+
+.fa-hat-wizard:before {
+  content: "";
+}
+
+.fa-hdd:before {
+  content: "";
+}
+
+.fa-head-side-cough:before {
+  content: "";
+}
+
+.fa-head-side-cough-slash:before {
+  content: "";
+}
+
+.fa-head-side-mask:before {
+  content: "";
+}
+
+.fa-head-side-virus:before {
+  content: "";
+}
+
+.fa-heading:before {
+  content: "";
+}
+
+.fa-headphones:before {
+  content: "";
+}
+
+.fa-headphones-alt:before {
+  content: "";
+}
+
+.fa-headset:before {
+  content: "";
+}
+
+.fa-heart:before {
+  content: "";
+}
+
+.fa-heart-broken:before {
+  content: "";
+}
+
+.fa-heartbeat:before {
+  content: "";
+}
+
+.fa-helicopter:before {
+  content: "";
+}
+
+.fa-highlighter:before {
+  content: "";
+}
+
+.fa-hiking:before {
+  content: "";
+}
+
+.fa-hippo:before {
+  content: "";
+}
+
+.fa-hips:before {
+  content: "";
+}
+
+.fa-hire-a-helper:before {
+  content: "";
+}
+
+.fa-history:before {
+  content: "";
+}
+
+.fa-hockey-puck:before {
+  content: "";
+}
+
+.fa-holly-berry:before {
+  content: "";
+}
+
+.fa-home:before {
+  content: "";
+}
+
+.fa-hooli:before {
+  content: "";
+}
+
+.fa-hornbill:before {
+  content: "";
+}
+
+.fa-horse:before {
+  content: "";
+}
+
+.fa-horse-head:before {
+  content: "";
+}
+
+.fa-hospital:before {
+  content: "";
+}
+
+.fa-hospital-alt:before {
+  content: "";
+}
+
+.fa-hospital-symbol:before {
+  content: "";
+}
+
+.fa-hospital-user:before {
+  content: "";
+}
+
+.fa-hot-tub:before {
+  content: "";
+}
+
+.fa-hotdog:before {
+  content: "";
+}
+
+.fa-hotel:before {
+  content: "";
+}
+
+.fa-hotjar:before {
+  content: "";
+}
+
+.fa-hourglass:before {
+  content: "";
+}
+
+.fa-hourglass-end:before {
+  content: "";
+}
+
+.fa-hourglass-half:before {
+  content: "";
+}
+
+.fa-hourglass-start:before {
+  content: "";
+}
+
+.fa-house-damage:before {
+  content: "";
+}
+
+.fa-house-user:before {
+  content: "";
+}
+
+.fa-houzz:before {
+  content: "";
+}
+
+.fa-hryvnia:before {
+  content: "";
+}
+
+.fa-html5:before {
+  content: "";
+}
+
+.fa-hubspot:before {
+  content: "";
+}
+
+.fa-i-cursor:before {
+  content: "";
+}
+
+.fa-ice-cream:before {
+  content: "";
+}
+
+.fa-icicles:before {
+  content: "";
+}
+
+.fa-icons:before {
+  content: "";
+}
+
+.fa-id-badge:before {
+  content: "";
+}
+
+.fa-id-card:before {
+  content: "";
+}
+
+.fa-id-card-alt:before {
+  content: "";
+}
+
+.fa-ideal:before {
+  content: "";
+}
+
+.fa-igloo:before {
+  content: "";
+}
+
+.fa-image:before {
+  content: "";
+}
+
+.fa-images:before {
+  content: "";
+}
+
+.fa-imdb:before {
+  content: "";
+}
+
+.fa-inbox:before {
+  content: "";
+}
+
+.fa-indent:before {
+  content: "";
+}
+
+.fa-industry:before {
+  content: "";
+}
+
+.fa-infinity:before {
+  content: "";
+}
+
+.fa-info:before {
+  content: "";
+}
+
+.fa-info-circle:before {
+  content: "";
+}
+
+.fa-instagram:before {
+  content: "";
+}
+
+.fa-instagram-square:before {
+  content: "";
+}
+
+.fa-intercom:before {
+  content: "";
+}
+
+.fa-internet-explorer:before {
+  content: "";
+}
+
+.fa-invision:before {
+  content: "";
+}
+
+.fa-ioxhost:before {
+  content: "";
+}
+
+.fa-italic:before {
+  content: "";
+}
+
+.fa-itch-io:before {
+  content: "";
+}
+
+.fa-itunes:before {
+  content: "";
+}
+
+.fa-itunes-note:before {
+  content: "";
+}
+
+.fa-java:before {
+  content: "";
+}
+
+.fa-jedi:before {
+  content: "";
+}
+
+.fa-jedi-order:before {
+  content: "";
+}
+
+.fa-jenkins:before {
+  content: "";
+}
+
+.fa-jira:before {
+  content: "";
+}
+
+.fa-joget:before {
+  content: "";
+}
+
+.fa-joint:before {
+  content: "";
+}
+
+.fa-joomla:before {
+  content: "";
+}
+
+.fa-journal-whills:before {
+  content: "";
+}
+
+.fa-js:before {
+  content: "";
+}
+
+.fa-js-square:before {
+  content: "";
+}
+
+.fa-jsfiddle:before {
+  content: "";
+}
+
+.fa-kaaba:before {
+  content: "";
+}
+
+.fa-kaggle:before {
+  content: "";
+}
+
+.fa-key:before {
+  content: "";
+}
+
+.fa-keybase:before {
+  content: "";
+}
+
+.fa-keyboard:before {
+  content: "";
+}
+
+.fa-keycdn:before {
+  content: "";
+}
+
+.fa-khanda:before {
+  content: "";
+}
+
+.fa-kickstarter:before {
+  content: "";
+}
+
+.fa-kickstarter-k:before {
+  content: "";
+}
+
+.fa-kiss:before {
+  content: "";
+}
+
+.fa-kiss-beam:before {
+  content: "";
+}
+
+.fa-kiss-wink-heart:before {
+  content: "";
+}
+
+.fa-kiwi-bird:before {
+  content: "";
+}
+
+.fa-korvue:before {
+  content: "";
+}
+
+.fa-landmark:before {
+  content: "";
+}
+
+.fa-language:before {
+  content: "";
+}
+
+.fa-laptop:before {
+  content: "";
+}
+
+.fa-laptop-code:before {
+  content: "";
+}
+
+.fa-laptop-house:before {
+  content: "";
+}
+
+.fa-laptop-medical:before {
+  content: "";
+}
+
+.fa-laravel:before {
+  content: "";
+}
+
+.fa-lastfm:before {
+  content: "";
+}
+
+.fa-lastfm-square:before {
+  content: "";
+}
+
+.fa-laugh:before {
+  content: "";
+}
+
+.fa-laugh-beam:before {
+  content: "";
+}
+
+.fa-laugh-squint:before {
+  content: "";
+}
+
+.fa-laugh-wink:before {
+  content: "";
+}
+
+.fa-layer-group:before {
+  content: "";
+}
+
+.fa-leaf:before {
+  content: "";
+}
+
+.fa-leanpub:before {
+  content: "";
+}
+
+.fa-lemon:before {
+  content: "";
+}
+
+.fa-less:before {
+  content: "";
+}
+
+.fa-less-than:before {
+  content: "";
+}
+
+.fa-less-than-equal:before {
+  content: "";
+}
+
+.fa-level-down-alt:before {
+  content: "";
+}
+
+.fa-level-up-alt:before {
+  content: "";
+}
+
+.fa-life-ring:before {
+  content: "";
+}
+
+.fa-lightbulb:before {
+  content: "";
+}
+
+.fa-line:before {
+  content: "";
+}
+
+.fa-link:before {
+  content: "";
+}
+
+.fa-linkedin:before {
+  content: "";
+}
+
+.fa-linkedin-in:before {
+  content: "";
+}
+
+.fa-linode:before {
+  content: "";
+}
+
+.fa-linux:before {
+  content: "";
+}
+
+.fa-lira-sign:before {
+  content: "";
+}
+
+.fa-list:before {
+  content: "";
+}
+
+.fa-list-alt:before {
+  content: "";
+}
+
+.fa-list-ol:before {
+  content: "";
+}
+
+.fa-list-ul:before {
+  content: "";
+}
+
+.fa-location-arrow:before {
+  content: "";
+}
+
+.fa-lock:before {
+  content: "";
+}
+
+.fa-lock-open:before {
+  content: "";
+}
+
+.fa-long-arrow-alt-down:before {
+  content: "";
+}
+
+.fa-long-arrow-alt-left:before {
+  content: "";
+}
+
+.fa-long-arrow-alt-right:before {
+  content: "";
+}
+
+.fa-long-arrow-alt-up:before {
+  content: "";
+}
+
+.fa-low-vision:before {
+  content: "";
+}
+
+.fa-luggage-cart:before {
+  content: "";
+}
+
+.fa-lungs:before {
+  content: "";
+}
+
+.fa-lungs-virus:before {
+  content: "";
+}
+
+.fa-lyft:before {
+  content: "";
+}
+
+.fa-magento:before {
+  content: "";
+}
+
+.fa-magic:before {
+  content: "";
+}
+
+.fa-magnet:before {
+  content: "";
+}
+
+.fa-mail-bulk:before {
+  content: "";
+}
+
+.fa-mailchimp:before {
+  content: "";
+}
+
+.fa-male:before {
+  content: "";
+}
+
+.fa-mandalorian:before {
+  content: "";
+}
+
+.fa-map:before {
+  content: "";
+}
+
+.fa-map-marked:before {
+  content: "";
+}
+
+.fa-map-marked-alt:before {
+  content: "";
+}
+
+.fa-map-marker:before {
+  content: "";
+}
+
+.fa-map-marker-alt:before {
+  content: "";
+}
+
+.fa-map-pin:before {
+  content: "";
+}
+
+.fa-map-signs:before {
+  content: "";
+}
+
+.fa-markdown:before {
+  content: "";
+}
+
+.fa-marker:before {
+  content: "";
+}
+
+.fa-mars:before {
+  content: "";
+}
+
+.fa-mars-double:before {
+  content: "";
+}
+
+.fa-mars-stroke:before {
+  content: "";
+}
+
+.fa-mars-stroke-h:before {
+  content: "";
+}
+
+.fa-mars-stroke-v:before {
+  content: "";
+}
+
+.fa-mask:before {
+  content: "";
+}
+
+.fa-mastodon:before {
+  content: "";
+}
+
+.fa-maxcdn:before {
+  content: "";
+}
+
+.fa-mdb:before {
+  content: "";
+}
+
+.fa-medal:before {
+  content: "";
+}
+
+.fa-medapps:before {
+  content: "";
+}
+
+.fa-medium:before {
+  content: "";
+}
+
+.fa-medium-m:before {
+  content: "";
+}
+
+.fa-medkit:before {
+  content: "";
+}
+
+.fa-medrt:before {
+  content: "";
+}
+
+.fa-meetup:before {
+  content: "";
+}
+
+.fa-megaport:before {
+  content: "";
+}
+
+.fa-meh:before {
+  content: "";
+}
+
+.fa-meh-blank:before {
+  content: "";
+}
+
+.fa-meh-rolling-eyes:before {
+  content: "";
+}
+
+.fa-memory:before {
+  content: "";
+}
+
+.fa-mendeley:before {
+  content: "";
+}
+
+.fa-menorah:before {
+  content: "";
+}
+
+.fa-mercury:before {
+  content: "";
+}
+
+.fa-meteor:before {
+  content: "";
+}
+
+.fa-microblog:before {
+  content: "";
+}
+
+.fa-microchip:before {
+  content: "";
+}
+
+.fa-microphone:before {
+  content: "";
+}
+
+.fa-microphone-alt:before {
+  content: "";
+}
+
+.fa-microphone-alt-slash:before {
+  content: "";
+}
+
+.fa-microphone-slash:before {
+  content: "";
+}
+
+.fa-microscope:before {
+  content: "";
+}
+
+.fa-microsoft:before {
+  content: "";
+}
+
+.fa-minus:before {
+  content: "";
+}
+
+.fa-minus-circle:before {
+  content: "";
+}
+
+.fa-minus-square:before {
+  content: "";
+}
+
+.fa-mitten:before {
+  content: "";
+}
+
+.fa-mix:before {
+  content: "";
+}
+
+.fa-mixcloud:before {
+  content: "";
+}
+
+.fa-mixer:before {
+  content: "";
+}
+
+.fa-mizuni:before {
+  content: "";
+}
+
+.fa-mobile:before {
+  content: "";
+}
+
+.fa-mobile-alt:before {
+  content: "";
+}
+
+.fa-modx:before {
+  content: "";
+}
+
+.fa-monero:before {
+  content: "";
+}
+
+.fa-money-bill:before {
+  content: "";
+}
+
+.fa-money-bill-alt:before {
+  content: "";
+}
+
+.fa-money-bill-wave:before {
+  content: "";
+}
+
+.fa-money-bill-wave-alt:before {
+  content: "";
+}
+
+.fa-money-check:before {
+  content: "";
+}
+
+.fa-money-check-alt:before {
+  content: "";
+}
+
+.fa-monument:before {
+  content: "";
+}
+
+.fa-moon:before {
+  content: "";
+}
+
+.fa-mortar-pestle:before {
+  content: "";
+}
+
+.fa-mosque:before {
+  content: "";
+}
+
+.fa-motorcycle:before {
+  content: "";
+}
+
+.fa-mountain:before {
+  content: "";
+}
+
+.fa-mouse:before {
+  content: "";
+}
+
+.fa-mouse-pointer:before {
+  content: "";
+}
+
+.fa-mug-hot:before {
+  content: "";
+}
+
+.fa-music:before {
+  content: "";
+}
+
+.fa-napster:before {
+  content: "";
+}
+
+.fa-neos:before {
+  content: "";
+}
+
+.fa-network-wired:before {
+  content: "";
+}
+
+.fa-neuter:before {
+  content: "";
+}
+
+.fa-newspaper:before {
+  content: "";
+}
+
+.fa-nimblr:before {
+  content: "";
+}
+
+.fa-node:before {
+  content: "";
+}
+
+.fa-node-js:before {
+  content: "";
+}
+
+.fa-not-equal:before {
+  content: "";
+}
+
+.fa-notes-medical:before {
+  content: "";
+}
+
+.fa-npm:before {
+  content: "";
+}
+
+.fa-ns8:before {
+  content: "";
+}
+
+.fa-nutritionix:before {
+  content: "";
+}
+
+.fa-object-group:before {
+  content: "";
+}
+
+.fa-object-ungroup:before {
+  content: "";
+}
+
+.fa-odnoklassniki:before {
+  content: "";
+}
+
+.fa-odnoklassniki-square:before {
+  content: "";
+}
+
+.fa-oil-can:before {
+  content: "";
+}
+
+.fa-old-republic:before {
+  content: "";
+}
+
+.fa-om:before {
+  content: "";
+}
+
+.fa-opencart:before {
+  content: "";
+}
+
+.fa-openid:before {
+  content: "";
+}
+
+.fa-opera:before {
+  content: "";
+}
+
+.fa-optin-monster:before {
+  content: "";
+}
+
+.fa-orcid:before {
+  content: "";
+}
+
+.fa-osi:before {
+  content: "";
+}
+
+.fa-otter:before {
+  content: "";
+}
+
+.fa-outdent:before {
+  content: "";
+}
+
+.fa-page4:before {
+  content: "";
+}
+
+.fa-pagelines:before {
+  content: "";
+}
+
+.fa-pager:before {
+  content: "";
+}
+
+.fa-paint-brush:before {
+  content: "";
+}
+
+.fa-paint-roller:before {
+  content: "";
+}
+
+.fa-palette:before {
+  content: "";
+}
+
+.fa-palfed:before {
+  content: "";
+}
+
+.fa-pallet:before {
+  content: "";
+}
+
+.fa-paper-plane:before {
+  content: "";
+}
+
+.fa-paperclip:before {
+  content: "";
+}
+
+.fa-parachute-box:before {
+  content: "";
+}
+
+.fa-paragraph:before {
+  content: "";
+}
+
+.fa-parking:before {
+  content: "";
+}
+
+.fa-passport:before {
+  content: "";
+}
+
+.fa-pastafarianism:before {
+  content: "";
+}
+
+.fa-paste:before {
+  content: "";
+}
+
+.fa-patreon:before {
+  content: "";
+}
+
+.fa-pause:before {
+  content: "";
+}
+
+.fa-pause-circle:before {
+  content: "";
+}
+
+.fa-paw:before {
+  content: "";
+}
+
+.fa-paypal:before {
+  content: "";
+}
+
+.fa-peace:before {
+  content: "";
+}
+
+.fa-pen:before {
+  content: "";
+}
+
+.fa-pen-alt:before {
+  content: "";
+}
+
+.fa-pen-fancy:before {
+  content: "";
+}
+
+.fa-pen-nib:before {
+  content: "";
+}
+
+.fa-pen-square:before {
+  content: "";
+}
+
+.fa-pencil-alt:before {
+  content: "";
+}
+
+.fa-pencil-ruler:before {
+  content: "";
+}
+
+.fa-penny-arcade:before {
+  content: "";
+}
+
+.fa-people-arrows:before {
+  content: "";
+}
+
+.fa-people-carry:before {
+  content: "";
+}
+
+.fa-pepper-hot:before {
+  content: "";
+}
+
+.fa-percent:before {
+  content: "";
+}
+
+.fa-percentage:before {
+  content: "";
+}
+
+.fa-periscope:before {
+  content: "";
+}
+
+.fa-person-booth:before {
+  content: "";
+}
+
+.fa-phabricator:before {
+  content: "";
+}
+
+.fa-phoenix-framework:before {
+  content: "";
+}
+
+.fa-phoenix-squadron:before {
+  content: "";
+}
+
+.fa-phone:before {
+  content: "";
+}
+
+.fa-phone-alt:before {
+  content: "";
+}
+
+.fa-phone-slash:before {
+  content: "";
+}
+
+.fa-phone-square:before {
+  content: "";
+}
+
+.fa-phone-square-alt:before {
+  content: "";
+}
+
+.fa-phone-volume:before {
+  content: "";
+}
+
+.fa-photo-video:before {
+  content: "";
+}
+
+.fa-php:before {
+  content: "";
+}
+
+.fa-pied-piper:before {
+  content: "";
+}
+
+.fa-pied-piper-alt:before {
+  content: "";
+}
+
+.fa-pied-piper-hat:before {
+  content: "";
+}
+
+.fa-pied-piper-pp:before {
+  content: "";
+}
+
+.fa-pied-piper-square:before {
+  content: "";
+}
+
+.fa-piggy-bank:before {
+  content: "";
+}
+
+.fa-pills:before {
+  content: "";
+}
+
+.fa-pinterest:before {
+  content: "";
+}
+
+.fa-pinterest-p:before {
+  content: "";
+}
+
+.fa-pinterest-square:before {
+  content: "";
+}
+
+.fa-pizza-slice:before {
+  content: "";
+}
+
+.fa-place-of-worship:before {
+  content: "";
+}
+
+.fa-plane:before {
+  content: "";
+}
+
+.fa-plane-arrival:before {
+  content: "";
+}
+
+.fa-plane-departure:before {
+  content: "";
+}
+
+.fa-plane-slash:before {
+  content: "";
+}
+
+.fa-play:before {
+  content: "";
+}
+
+.fa-play-circle:before {
+  content: "";
+}
+
+.fa-playstation:before {
+  content: "";
+}
+
+.fa-plug:before {
+  content: "";
+}
+
+.fa-plus:before {
+  content: "";
+}
+
+.fa-plus-circle:before {
+  content: "";
+}
+
+.fa-plus-square:before {
+  content: "";
+}
+
+.fa-podcast:before {
+  content: "";
+}
+
+.fa-poll:before {
+  content: "";
+}
+
+.fa-poll-h:before {
+  content: "";
+}
+
+.fa-poo:before {
+  content: "";
+}
+
+.fa-poo-storm:before {
+  content: "";
+}
+
+.fa-poop:before {
+  content: "";
+}
+
+.fa-portrait:before {
+  content: "";
+}
+
+.fa-pound-sign:before {
+  content: "";
+}
+
+.fa-power-off:before {
+  content: "";
+}
+
+.fa-pray:before {
+  content: "";
+}
+
+.fa-praying-hands:before {
+  content: "";
+}
+
+.fa-prescription:before {
+  content: "";
+}
+
+.fa-prescription-bottle:before {
+  content: "";
+}
+
+.fa-prescription-bottle-alt:before {
+  content: "";
+}
+
+.fa-print:before {
+  content: "";
+}
+
+.fa-procedures:before {
+  content: "";
+}
+
+.fa-product-hunt:before {
+  content: "";
+}
+
+.fa-project-diagram:before {
+  content: "";
+}
+
+.fa-pump-medical:before {
+  content: "";
+}
+
+.fa-pump-soap:before {
+  content: "";
+}
+
+.fa-pushed:before {
+  content: "";
+}
+
+.fa-puzzle-piece:before {
+  content: "";
+}
+
+.fa-python:before {
+  content: "";
+}
+
+.fa-qq:before {
+  content: "";
+}
+
+.fa-qrcode:before {
+  content: "";
+}
+
+.fa-question:before {
+  content: "";
+}
+
+.fa-question-circle:before {
+  content: "";
+}
+
+.fa-quidditch:before {
+  content: "";
+}
+
+.fa-quinscape:before {
+  content: "";
+}
+
+.fa-quora:before {
+  content: "";
+}
+
+.fa-quote-left:before {
+  content: "";
+}
+
+.fa-quote-right:before {
+  content: "";
+}
+
+.fa-quran:before {
+  content: "";
+}
+
+.fa-r-project:before {
+  content: "";
+}
+
+.fa-radiation:before {
+  content: "";
+}
+
+.fa-radiation-alt:before {
+  content: "";
+}
+
+.fa-rainbow:before {
+  content: "";
+}
+
+.fa-random:before {
+  content: "";
+}
+
+.fa-raspberry-pi:before {
+  content: "";
+}
+
+.fa-ravelry:before {
+  content: "";
+}
+
+.fa-react:before {
+  content: "";
+}
+
+.fa-reacteurope:before {
+  content: "";
+}
+
+.fa-readme:before {
+  content: "";
+}
+
+.fa-rebel:before {
+  content: "";
+}
+
+.fa-receipt:before {
+  content: "";
+}
+
+.fa-record-vinyl:before {
+  content: "";
+}
+
+.fa-recycle:before {
+  content: "";
+}
+
+.fa-red-river:before {
+  content: "";
+}
+
+.fa-reddit:before {
+  content: "";
+}
+
+.fa-reddit-alien:before {
+  content: "";
+}
+
+.fa-reddit-square:before {
+  content: "";
+}
+
+.fa-redhat:before {
+  content: "";
+}
+
+.fa-redo:before {
+  content: "";
+}
+
+.fa-redo-alt:before {
+  content: "";
+}
+
+.fa-registered:before {
+  content: "";
+}
+
+.fa-remove-format:before {
+  content: "";
+}
+
+.fa-renren:before {
+  content: "";
+}
+
+.fa-reply:before {
+  content: "";
+}
+
+.fa-reply-all:before {
+  content: "";
+}
+
+.fa-replyd:before {
+  content: "";
+}
+
+.fa-republican:before {
+  content: "";
+}
+
+.fa-researchgate:before {
+  content: "";
+}
+
+.fa-resolving:before {
+  content: "";
+}
+
+.fa-restroom:before {
+  content: "";
+}
+
+.fa-retweet:before {
+  content: "";
+}
+
+.fa-rev:before {
+  content: "";
+}
+
+.fa-ribbon:before {
+  content: "";
+}
+
+.fa-ring:before {
+  content: "";
+}
+
+.fa-road:before {
+  content: "";
+}
+
+.fa-robot:before {
+  content: "";
+}
+
+.fa-rocket:before {
+  content: "";
+}
+
+.fa-rocketchat:before {
+  content: "";
+}
+
+.fa-rockrms:before {
+  content: "";
+}
+
+.fa-route:before {
+  content: "";
+}
+
+.fa-rss:before {
+  content: "";
+}
+
+.fa-rss-square:before {
+  content: "";
+}
+
+.fa-ruble-sign:before {
+  content: "";
+}
+
+.fa-ruler:before {
+  content: "";
+}
+
+.fa-ruler-combined:before {
+  content: "";
+}
+
+.fa-ruler-horizontal:before {
+  content: "";
+}
+
+.fa-ruler-vertical:before {
+  content: "";
+}
+
+.fa-running:before {
+  content: "";
+}
+
+.fa-rupee-sign:before {
+  content: "";
+}
+
+.fa-rust:before {
+  content: "";
+}
+
+.fa-sad-cry:before {
+  content: "";
+}
+
+.fa-sad-tear:before {
+  content: "";
+}
+
+.fa-safari:before {
+  content: "";
+}
+
+.fa-salesforce:before {
+  content: "";
+}
+
+.fa-sass:before {
+  content: "";
+}
+
+.fa-satellite:before {
+  content: "";
+}
+
+.fa-satellite-dish:before {
+  content: "";
+}
+
+.fa-save:before {
+  content: "";
+}
+
+.fa-schlix:before {
+  content: "";
+}
+
+.fa-school:before {
+  content: "";
+}
+
+.fa-screwdriver:before {
+  content: "";
+}
+
+.fa-scribd:before {
+  content: "";
+}
+
+.fa-scroll:before {
+  content: "";
+}
+
+.fa-sd-card:before {
+  content: "";
+}
+
+.fa-search:before {
+  content: "";
+}
+
+.fa-search-dollar:before {
+  content: "";
+}
+
+.fa-search-location:before {
+  content: "";
+}
+
+.fa-search-minus:before {
+  content: "";
+}
+
+.fa-search-plus:before {
+  content: "";
+}
+
+.fa-searchengin:before {
+  content: "";
+}
+
+.fa-seedling:before {
+  content: "";
+}
+
+.fa-sellcast:before {
+  content: "";
+}
+
+.fa-sellsy:before {
+  content: "";
+}
+
+.fa-server:before {
+  content: "";
+}
+
+.fa-servicestack:before {
+  content: "";
+}
+
+.fa-shapes:before {
+  content: "";
+}
+
+.fa-share:before {
+  content: "";
+}
+
+.fa-share-alt:before {
+  content: "";
+}
+
+.fa-share-alt-square:before {
+  content: "";
+}
+
+.fa-share-square:before {
+  content: "";
+}
+
+.fa-shekel-sign:before {
+  content: "";
+}
+
+.fa-shield-alt:before {
+  content: "";
+}
+
+.fa-shield-virus:before {
+  content: "";
+}
+
+.fa-ship:before {
+  content: "";
+}
+
+.fa-shipping-fast:before {
+  content: "";
+}
+
+.fa-shirtsinbulk:before {
+  content: "";
+}
+
+.fa-shoe-prints:before {
+  content: "";
+}
+
+.fa-shopify:before {
+  content: "";
+}
+
+.fa-shopping-bag:before {
+  content: "";
+}
+
+.fa-shopping-basket:before {
+  content: "";
+}
+
+.fa-shopping-cart:before {
+  content: "";
+}
+
+.fa-shopware:before {
+  content: "";
+}
+
+.fa-shower:before {
+  content: "";
+}
+
+.fa-shuttle-van:before {
+  content: "";
+}
+
+.fa-sign:before {
+  content: "";
+}
+
+.fa-sign-in-alt:before {
+  content: "";
+}
+
+.fa-sign-language:before {
+  content: "";
+}
+
+.fa-sign-out-alt:before {
+  content: "";
+}
+
+.fa-signal:before {
+  content: "";
+}
+
+.fa-signature:before {
+  content: "";
+}
+
+.fa-sim-card:before {
+  content: "";
+}
+
+.fa-simplybuilt:before {
+  content: "";
+}
+
+.fa-sink:before {
+  content: "";
+}
+
+.fa-sistrix:before {
+  content: "";
+}
+
+.fa-sitemap:before {
+  content: "";
+}
+
+.fa-sith:before {
+  content: "";
+}
+
+.fa-skating:before {
+  content: "";
+}
+
+.fa-sketch:before {
+  content: "";
+}
+
+.fa-skiing:before {
+  content: "";
+}
+
+.fa-skiing-nordic:before {
+  content: "";
+}
+
+.fa-skull:before {
+  content: "";
+}
+
+.fa-skull-crossbones:before {
+  content: "";
+}
+
+.fa-skyatlas:before {
+  content: "";
+}
+
+.fa-skype:before {
+  content: "";
+}
+
+.fa-slack:before {
+  content: "";
+}
+
+.fa-slack-hash:before {
+  content: "";
+}
+
+.fa-slash:before {
+  content: "";
+}
+
+.fa-sleigh:before {
+  content: "";
+}
+
+.fa-sliders-h:before {
+  content: "";
+}
+
+.fa-slideshare:before {
+  content: "";
+}
+
+.fa-smile:before {
+  content: "";
+}
+
+.fa-smile-beam:before {
+  content: "";
+}
+
+.fa-smile-wink:before {
+  content: "";
+}
+
+.fa-smog:before {
+  content: "";
+}
+
+.fa-smoking:before {
+  content: "";
+}
+
+.fa-smoking-ban:before {
+  content: "";
+}
+
+.fa-sms:before {
+  content: "";
+}
+
+.fa-snapchat:before {
+  content: "";
+}
+
+.fa-snapchat-ghost:before {
+  content: "";
+}
+
+.fa-snapchat-square:before {
+  content: "";
+}
+
+.fa-snowboarding:before {
+  content: "";
+}
+
+.fa-snowflake:before {
+  content: "";
+}
+
+.fa-snowman:before {
+  content: "";
+}
+
+.fa-snowplow:before {
+  content: "";
+}
+
+.fa-soap:before {
+  content: "";
+}
+
+.fa-socks:before {
+  content: "";
+}
+
+.fa-solar-panel:before {
+  content: "";
+}
+
+.fa-sort:before {
+  content: "";
+}
+
+.fa-sort-alpha-down:before {
+  content: "";
+}
+
+.fa-sort-alpha-down-alt:before {
+  content: "";
+}
+
+.fa-sort-alpha-up:before {
+  content: "";
+}
+
+.fa-sort-alpha-up-alt:before {
+  content: "";
+}
+
+.fa-sort-amount-down:before {
+  content: "";
+}
+
+.fa-sort-amount-down-alt:before {
+  content: "";
+}
+
+.fa-sort-amount-up:before {
+  content: "";
+}
+
+.fa-sort-amount-up-alt:before {
+  content: "";
+}
+
+.fa-sort-down:before {
+  content: "";
+}
+
+.fa-sort-numeric-down:before {
+  content: "";
+}
+
+.fa-sort-numeric-down-alt:before {
+  content: "";
+}
+
+.fa-sort-numeric-up:before {
+  content: "";
+}
+
+.fa-sort-numeric-up-alt:before {
+  content: "";
+}
+
+.fa-sort-up:before {
+  content: "";
+}
+
+.fa-soundcloud:before {
+  content: "";
+}
+
+.fa-sourcetree:before {
+  content: "";
+}
+
+.fa-spa:before {
+  content: "";
+}
+
+.fa-space-shuttle:before {
+  content: "";
+}
+
+.fa-speakap:before {
+  content: "";
+}
+
+.fa-speaker-deck:before {
+  content: "";
+}
+
+.fa-spell-check:before {
+  content: "";
+}
+
+.fa-spider:before {
+  content: "";
+}
+
+.fa-spinner:before {
+  content: "";
+}
+
+.fa-splotch:before {
+  content: "";
+}
+
+.fa-spotify:before {
+  content: "";
+}
+
+.fa-spray-can:before {
+  content: "";
+}
+
+.fa-square:before {
+  content: "";
+}
+
+.fa-square-full:before {
+  content: "";
+}
+
+.fa-square-root-alt:before {
+  content: "";
+}
+
+.fa-squarespace:before {
+  content: "";
+}
+
+.fa-stack-exchange:before {
+  content: "";
+}
+
+.fa-stack-overflow:before {
+  content: "";
+}
+
+.fa-stackpath:before {
+  content: "";
+}
+
+.fa-stamp:before {
+  content: "";
+}
+
+.fa-star:before {
+  content: "";
+}
+
+.fa-star-and-crescent:before {
+  content: "";
+}
+
+.fa-star-half:before {
+  content: "";
+}
+
+.fa-star-half-alt:before {
+  content: "";
+}
+
+.fa-star-of-david:before {
+  content: "";
+}
+
+.fa-star-of-life:before {
+  content: "";
+}
+
+.fa-staylinked:before {
+  content: "";
+}
+
+.fa-steam:before {
+  content: "";
+}
+
+.fa-steam-square:before {
+  content: "";
+}
+
+.fa-steam-symbol:before {
+  content: "";
+}
+
+.fa-step-backward:before {
+  content: "";
+}
+
+.fa-step-forward:before {
+  content: "";
+}
+
+.fa-stethoscope:before {
+  content: "";
+}
+
+.fa-sticker-mule:before {
+  content: "";
+}
+
+.fa-sticky-note:before {
+  content: "";
+}
+
+.fa-stop:before {
+  content: "";
+}
+
+.fa-stop-circle:before {
+  content: "";
+}
+
+.fa-stopwatch:before {
+  content: "";
+}
+
+.fa-stopwatch-20:before {
+  content: "";
+}
+
+.fa-store:before {
+  content: "";
+}
+
+.fa-store-alt:before {
+  content: "";
+}
+
+.fa-store-alt-slash:before {
+  content: "";
+}
+
+.fa-store-slash:before {
+  content: "";
+}
+
+.fa-strava:before {
+  content: "";
+}
+
+.fa-stream:before {
+  content: "";
+}
+
+.fa-street-view:before {
+  content: "";
+}
+
+.fa-strikethrough:before {
+  content: "";
+}
+
+.fa-stripe:before {
+  content: "";
+}
+
+.fa-stripe-s:before {
+  content: "";
+}
+
+.fa-stroopwafel:before {
+  content: "";
+}
+
+.fa-studiovinari:before {
+  content: "";
+}
+
+.fa-stumbleupon:before {
+  content: "";
+}
+
+.fa-stumbleupon-circle:before {
+  content: "";
+}
+
+.fa-subscript:before {
+  content: "";
+}
+
+.fa-subway:before {
+  content: "";
+}
+
+.fa-suitcase:before {
+  content: "";
+}
+
+.fa-suitcase-rolling:before {
+  content: "";
+}
+
+.fa-sun:before {
+  content: "";
+}
+
+.fa-superpowers:before {
+  content: "";
+}
+
+.fa-superscript:before {
+  content: "";
+}
+
+.fa-supple:before {
+  content: "";
+}
+
+.fa-surprise:before {
+  content: "";
+}
+
+.fa-suse:before {
+  content: "";
+}
+
+.fa-swatchbook:before {
+  content: "";
+}
+
+.fa-swift:before {
+  content: "";
+}
+
+.fa-swimmer:before {
+  content: "";
+}
+
+.fa-swimming-pool:before {
+  content: "";
+}
+
+.fa-symfony:before {
+  content: "";
+}
+
+.fa-synagogue:before {
+  content: "";
+}
+
+.fa-sync:before {
+  content: "";
+}
+
+.fa-sync-alt:before {
+  content: "";
+}
+
+.fa-syringe:before {
+  content: "";
+}
+
+.fa-table:before {
+  content: "";
+}
+
+.fa-table-tennis:before {
+  content: "";
+}
+
+.fa-tablet:before {
+  content: "";
+}
+
+.fa-tablet-alt:before {
+  content: "";
+}
+
+.fa-tablets:before {
+  content: "";
+}
+
+.fa-tachometer-alt:before {
+  content: "";
+}
+
+.fa-tag:before {
+  content: "";
+}
+
+.fa-tags:before {
+  content: "";
+}
+
+.fa-tape:before {
+  content: "";
+}
+
+.fa-tasks:before {
+  content: "";
+}
+
+.fa-taxi:before {
+  content: "";
+}
+
+.fa-teamspeak:before {
+  content: "";
+}
+
+.fa-teeth:before {
+  content: "";
+}
+
+.fa-teeth-open:before {
+  content: "";
+}
+
+.fa-telegram:before {
+  content: "";
+}
+
+.fa-telegram-plane:before {
+  content: "";
+}
+
+.fa-temperature-high:before {
+  content: "";
+}
+
+.fa-temperature-low:before {
+  content: "";
+}
+
+.fa-tencent-weibo:before {
+  content: "";
+}
+
+.fa-tenge:before {
+  content: "";
+}
+
+.fa-terminal:before {
+  content: "";
+}
+
+.fa-text-height:before {
+  content: "";
+}
+
+.fa-text-width:before {
+  content: "";
+}
+
+.fa-th:before {
+  content: "";
+}
+
+.fa-th-large:before {
+  content: "";
+}
+
+.fa-th-list:before {
+  content: "";
+}
+
+.fa-the-red-yeti:before {
+  content: "";
+}
+
+.fa-theater-masks:before {
+  content: "";
+}
+
+.fa-themeco:before {
+  content: "";
+}
+
+.fa-themeisle:before {
+  content: "";
+}
+
+.fa-thermometer:before {
+  content: "";
+}
+
+.fa-thermometer-empty:before {
+  content: "";
+}
+
+.fa-thermometer-full:before {
+  content: "";
+}
+
+.fa-thermometer-half:before {
+  content: "";
+}
+
+.fa-thermometer-quarter:before {
+  content: "";
+}
+
+.fa-thermometer-three-quarters:before {
+  content: "";
+}
+
+.fa-think-peaks:before {
+  content: "";
+}
+
+.fa-thumbs-down:before {
+  content: "";
+}
+
+.fa-thumbs-up:before {
+  content: "";
+}
+
+.fa-thumbtack:before {
+  content: "";
+}
+
+.fa-ticket-alt:before {
+  content: "";
+}
+
+.fa-tiktok:before {
+  content: "";
+}
+
+.fa-times:before {
+  content: "";
+}
+
+.fa-times-circle:before {
+  content: "";
+}
+
+.fa-tint:before {
+  content: "";
+}
+
+.fa-tint-slash:before {
+  content: "";
+}
+
+.fa-tired:before {
+  content: "";
+}
+
+.fa-toggle-off:before {
+  content: "";
+}
+
+.fa-toggle-on:before {
+  content: "";
+}
+
+.fa-toilet:before {
+  content: "";
+}
+
+.fa-toilet-paper:before {
+  content: "";
+}
+
+.fa-toilet-paper-slash:before {
+  content: "";
+}
+
+.fa-toolbox:before {
+  content: "";
+}
+
+.fa-tools:before {
+  content: "";
+}
+
+.fa-tooth:before {
+  content: "";
+}
+
+.fa-torah:before {
+  content: "";
+}
+
+.fa-torii-gate:before {
+  content: "";
+}
+
+.fa-tractor:before {
+  content: "";
+}
+
+.fa-trade-federation:before {
+  content: "";
+}
+
+.fa-trademark:before {
+  content: "";
+}
+
+.fa-traffic-light:before {
+  content: "";
+}
+
+.fa-trailer:before {
+  content: "";
+}
+
+.fa-train:before {
+  content: "";
+}
+
+.fa-tram:before {
+  content: "";
+}
+
+.fa-transgender:before {
+  content: "";
+}
+
+.fa-transgender-alt:before {
+  content: "";
+}
+
+.fa-trash:before {
+  content: "";
+}
+
+.fa-trash-alt:before {
+  content: "";
+}
+
+.fa-trash-restore:before {
+  content: "";
+}
+
+.fa-trash-restore-alt:before {
+  content: "";
+}
+
+.fa-tree:before {
+  content: "";
+}
+
+.fa-trello:before {
+  content: "";
+}
+
+.fa-tripadvisor:before {
+  content: "";
+}
+
+.fa-trophy:before {
+  content: "";
+}
+
+.fa-truck:before {
+  content: "";
+}
+
+.fa-truck-loading:before {
+  content: "";
+}
+
+.fa-truck-monster:before {
+  content: "";
+}
+
+.fa-truck-moving:before {
+  content: "";
+}
+
+.fa-truck-pickup:before {
+  content: "";
+}
+
+.fa-tshirt:before {
+  content: "";
+}
+
+.fa-tty:before {
+  content: "";
+}
+
+.fa-tumblr:before {
+  content: "";
+}
+
+.fa-tumblr-square:before {
+  content: "";
+}
+
+.fa-tv:before {
+  content: "";
+}
+
+.fa-twitch:before {
+  content: "";
+}
+
+.fa-twitter:before {
+  content: "";
+}
+
+.fa-twitter-square:before {
+  content: "";
+}
+
+.fa-typo3:before {
+  content: "";
+}
+
+.fa-uber:before {
+  content: "";
+}
+
+.fa-ubuntu:before {
+  content: "";
+}
+
+.fa-uikit:before {
+  content: "";
+}
+
+.fa-umbraco:before {
+  content: "";
+}
+
+.fa-umbrella:before {
+  content: "";
+}
+
+.fa-umbrella-beach:before {
+  content: "";
+}
+
+.fa-underline:before {
+  content: "";
+}
+
+.fa-undo:before {
+  content: "";
+}
+
+.fa-undo-alt:before {
+  content: "";
+}
+
+.fa-uniregistry:before {
+  content: "";
+}
+
+.fa-unity:before {
+  content: "";
+}
+
+.fa-universal-access:before {
+  content: "";
+}
+
+.fa-university:before {
+  content: "";
+}
+
+.fa-unlink:before {
+  content: "";
+}
+
+.fa-unlock:before {
+  content: "";
+}
+
+.fa-unlock-alt:before {
+  content: "";
+}
+
+.fa-unsplash:before {
+  content: "";
+}
+
+.fa-untappd:before {
+  content: "";
+}
+
+.fa-upload:before {
+  content: "";
+}
+
+.fa-ups:before {
+  content: "";
+}
+
+.fa-usb:before {
+  content: "";
+}
+
+.fa-user:before {
+  content: "";
+}
+
+.fa-user-alt:before {
+  content: "";
+}
+
+.fa-user-alt-slash:before {
+  content: "";
+}
+
+.fa-user-astronaut:before {
+  content: "";
+}
+
+.fa-user-check:before {
+  content: "";
+}
+
+.fa-user-circle:before {
+  content: "";
+}
+
+.fa-user-clock:before {
+  content: "";
+}
+
+.fa-user-cog:before {
+  content: "";
+}
+
+.fa-user-edit:before {
+  content: "";
+}
+
+.fa-user-friends:before {
+  content: "";
+}
+
+.fa-user-graduate:before {
+  content: "";
+}
+
+.fa-user-injured:before {
+  content: "";
+}
+
+.fa-user-lock:before {
+  content: "";
+}
+
+.fa-user-md:before {
+  content: "";
+}
+
+.fa-user-minus:before {
+  content: "";
+}
+
+.fa-user-ninja:before {
+  content: "";
+}
+
+.fa-user-nurse:before {
+  content: "";
+}
+
+.fa-user-plus:before {
+  content: "";
+}
+
+.fa-user-secret:before {
+  content: "";
+}
+
+.fa-user-shield:before {
+  content: "";
+}
+
+.fa-user-slash:before {
+  content: "";
+}
+
+.fa-user-tag:before {
+  content: "";
+}
+
+.fa-user-tie:before {
+  content: "";
+}
+
+.fa-user-times:before {
+  content: "";
+}
+
+.fa-users:before {
+  content: "";
+}
+
+.fa-users-cog:before {
+  content: "";
+}
+
+.fa-users-slash:before {
+  content: "";
+}
+
+.fa-usps:before {
+  content: "";
+}
+
+.fa-ussunnah:before {
+  content: "";
+}
+
+.fa-utensil-spoon:before {
+  content: "";
+}
+
+.fa-utensils:before {
+  content: "";
+}
+
+.fa-vaadin:before {
+  content: "";
+}
+
+.fa-vector-square:before {
+  content: "";
+}
+
+.fa-venus:before {
+  content: "";
+}
+
+.fa-venus-double:before {
+  content: "";
+}
+
+.fa-venus-mars:before {
+  content: "";
+}
+
+.fa-viacoin:before {
+  content: "";
+}
+
+.fa-viadeo:before {
+  content: "";
+}
+
+.fa-viadeo-square:before {
+  content: "";
+}
+
+.fa-vial:before {
+  content: "";
+}
+
+.fa-vials:before {
+  content: "";
+}
+
+.fa-viber:before {
+  content: "";
+}
+
+.fa-video:before {
+  content: "";
+}
+
+.fa-video-slash:before {
+  content: "";
+}
+
+.fa-vihara:before {
+  content: "";
+}
+
+.fa-vimeo:before {
+  content: "";
+}
+
+.fa-vimeo-square:before {
+  content: "";
+}
+
+.fa-vimeo-v:before {
+  content: "";
+}
+
+.fa-vine:before {
+  content: "";
+}
+
+.fa-virus:before {
+  content: "";
+}
+
+.fa-virus-slash:before {
+  content: "";
+}
+
+.fa-viruses:before {
+  content: "";
+}
+
+.fa-vk:before {
+  content: "";
+}
+
+.fa-vnv:before {
+  content: "";
+}
+
+.fa-voicemail:before {
+  content: "";
+}
+
+.fa-volleyball-ball:before {
+  content: "";
+}
+
+.fa-volume-down:before {
+  content: "";
+}
+
+.fa-volume-mute:before {
+  content: "";
+}
+
+.fa-volume-off:before {
+  content: "";
+}
+
+.fa-volume-up:before {
+  content: "";
+}
+
+.fa-vote-yea:before {
+  content: "";
+}
+
+.fa-vr-cardboard:before {
+  content: "";
+}
+
+.fa-vuejs:before {
+  content: "";
+}
+
+.fa-walking:before {
+  content: "";
+}
+
+.fa-wallet:before {
+  content: "";
+}
+
+.fa-warehouse:before {
+  content: "";
+}
+
+.fa-water:before {
+  content: "";
+}
+
+.fa-wave-square:before {
+  content: "";
+}
+
+.fa-waze:before {
+  content: "";
+}
+
+.fa-weebly:before {
+  content: "";
+}
+
+.fa-weibo:before {
+  content: "";
+}
+
+.fa-weight:before {
+  content: "";
+}
+
+.fa-weight-hanging:before {
+  content: "";
+}
+
+.fa-weixin:before {
+  content: "";
+}
+
+.fa-whatsapp:before {
+  content: "";
+}
+
+.fa-whatsapp-square:before {
+  content: "";
+}
+
+.fa-wheelchair:before {
+  content: "";
+}
+
+.fa-whmcs:before {
+  content: "";
+}
+
+.fa-wifi:before {
+  content: "";
+}
+
+.fa-wikipedia-w:before {
+  content: "";
+}
+
+.fa-wind:before {
+  content: "";
+}
+
+.fa-window-close:before {
+  content: "";
+}
+
+.fa-window-maximize:before {
+  content: "";
+}
+
+.fa-window-minimize:before {
+  content: "";
+}
+
+.fa-window-restore:before {
+  content: "";
+}
+
+.fa-windows:before {
+  content: "";
+}
+
+.fa-wine-bottle:before {
+  content: "";
+}
+
+.fa-wine-glass:before {
+  content: "";
+}
+
+.fa-wine-glass-alt:before {
+  content: "";
+}
+
+.fa-wix:before {
+  content: "";
+}
+
+.fa-wizards-of-the-coast:before {
+  content: "";
+}
+
+.fa-wolf-pack-battalion:before {
+  content: "";
+}
+
+.fa-won-sign:before {
+  content: "";
+}
+
+.fa-wordpress:before {
+  content: "";
+}
+
+.fa-wordpress-simple:before {
+  content: "";
+}
+
+.fa-wpbeginner:before {
+  content: "";
+}
+
+.fa-wpexplorer:before {
+  content: "";
+}
+
+.fa-wpforms:before {
+  content: "";
+}
+
+.fa-wpressr:before {
+  content: "";
+}
+
+.fa-wrench:before {
+  content: "";
+}
+
+.fa-x-ray:before {
+  content: "";
+}
+
+.fa-xbox:before {
+  content: "";
+}
+
+.fa-xing:before {
+  content: "";
+}
+
+.fa-xing-square:before {
+  content: "";
+}
+
+.fa-y-combinator:before {
+  content: "";
+}
+
+.fa-yahoo:before {
+  content: "";
+}
+
+.fa-yammer:before {
+  content: "";
+}
+
+.fa-yandex:before {
+  content: "";
+}
+
+.fa-yandex-international:before {
+  content: "";
+}
+
+.fa-yarn:before {
+  content: "";
+}
+
+.fa-yelp:before {
+  content: "";
+}
+
+.fa-yen-sign:before {
+  content: "";
+}
+
+.fa-yin-yang:before {
+  content: "";
+}
+
+.fa-yoast:before {
+  content: "";
+}
+
+.fa-youtube:before {
+  content: "";
+}
+
+.fa-youtube-square:before {
+  content: "";
+}
+
+.fa-zhihu:before {
+  content: "";
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*!
+ * Font Awesome Free 5.14.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.eot");
+  src: url("../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.woff2") format("woff2"), url("../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.woff") format("woff"), url("../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.ttf") format("truetype"), url("../../../media/vendor/fontawesome-free/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+.fa,
+.fas {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+/*!
+ * Font Awesome Free 5.14.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.eot");
+  src: url("../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.woff2") format("woff2"), url("../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.woff") format("woff"), url("../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.ttf") format("truetype"), url("../../../media/vendor/fontawesome-free/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+.fab {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 1170px;
+  }
+
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.grid-child {
+  max-width: 1170px;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #666666;
+  position: relative;
+}
+
+a {
+  color: #222222;
+}
+a:hover, a:active {
+  color: #6857b9;
+  text-decoration: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #222222;
+  border-color: #222222;
+}
+.btn-primary:hover {
+  background-color: #6857b9;
+  border-color: #6857b9;
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.badge-info {
+  color: #fff;
+  background-color: #222222;
+}
+
+.pretext, .posttext {
+  margin: 0px !important;
+}
+
+[class*=" icon-"]:before,
+[class^=icon-]:before {
+  font-weight: 500;
+}
+
+.card.module {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent;
+  background-clip: border-box;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 50px;
+}
+.card.module .card-header {
+  border-radius: 0;
+  padding: 0rem;
+  background-color: transparent;
+  border-bottom: none;
+  color: #6857b9;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.card.module .card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 0;
+}
+
+/*=============Header===============*/
+.header {
+  margin: 0 0 0px;
+}
+.header .container-header {
+  background: none;
+  box-shadow: none;
+  margin: 0;
+  position: unset;
+}
+.header .container {
+  background: none;
+}
+.header .header-top {
+  background: #000;
+  padding: 10px 0;
+}
+.header .header-top .nav li {
+  position: relative;
+}
+.header .header-top .nav li a {
+  font-size: 13px;
+  color: #fff;
+}
+.header .header-top .nav li a:hover {
+  color: #6857b9;
+  text-decoration: none;
+}
+.header .header-top .nav li a:focus {
+  outline: none;
+}
+.header .header-top .nav li:after {
+  position: absolute;
+  right: 50%;
+  bottom: 0;
+  left: 50%;
+  display: block;
+  height: 1px;
+  margin: auto;
+  content: "";
+  background: transparent;
+  opacity: 0.2;
+  transition: all 0.2s ease, background-color 0.2s ease;
+}
+.header .header-top .mod-menu {
+  flex-direction: row;
+}
+.header .header-top .mod-menu li {
+  margin-right: 30px;
+}
+.header .header-top .mod-menu li a {
+  padding: 0px 0;
+}
+.header .header-top .yt-loginform {
+  justify-content: flex-end;
+}
+.header .header-top .yt-loginform li.login:before {
+  margin: 0 3px;
+  content: "/";
+  color: #fff;
+  float: right;
+  FONT-SIZE: 12px;
+  margin-top: 2px;
+}
+.header .header-middle .sj_weather {
+  margin-top: 50px;
+}
+.header .header-middle .sj_weather .sj_weather_moduleclass_sfx {
+  padding: 0;
+}
+.header .header-middle .sj_weather .sj_weather_real_time,
+.header .header-middle .sj_weather .sj_weather_real_day {
+  display: none;
+}
+.header .header-middle .sj_weather .sj_weather_info {
+  padding: 0;
+  color: #222222;
+  font-size: 16px;
+}
+.header .header-middle .sj_weather .sj_weather_info .sj_weather_icon {
+  width: 47px;
+}
+.header .header-middle .logo {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0;
+}
+.header .header-middle .user-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.header .header-middle .mod-finder {
+  position: relative;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+.header .header-middle .mod-finder .input-group .form-control {
+  position: absolute;
+  width: 0;
+  right: 0;
+  top: 0;
+  border-radius: 0px;
+  padding: 0;
+  border: none;
+  height: 22px;
+  transition: all 0.2s ease-in-out 0s;
+}
+.header .header-middle .mod-finder .input-group .form-control:focus {
+  box-shadow: none;
+}
+.header .header-middle .mod-finder .input-group .input-group-append .btn-primary {
+  background: none;
+  border: none;
+  padding: 3px 0;
+}
+.header .header-middle .mod-finder .input-group .input-group-append .btn-primary span {
+  color: #222222;
+}
+.header .header-middle .mod-finder .input-group .input-group-append .btn-primary span:before {
+  font-size: 16px;
+  font-family: "icomoon";
+  content: "";
+}
+.header .header-middle .mod-finder .input-group .input-group-append .btn-primary span :hover {
+  color: #6857b9;
+}
+.header .header-middle .mod-finder:hover .input-group .form-control {
+  width: 200px;
+  max-width: none;
+}
+.header .header-bottom {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+.header .header-bottom .main-menu .pretext, .header .header-bottom .main-menu .posttext {
+  margin: 0;
+  display: none;
+}
+.header .header-bottom .main-menu .sj-flat-menu {
+  background: none;
+  border: none;
+  text-align: center;
+}
+.header .header-bottom .main-menu .sj-flat-menu > li {
+  background: none;
+  border: none;
+  position: relative;
+  padding: 10px 0px;
+  margin: 0 20px;
+}
+.header .header-bottom .main-menu .sj-flat-menu > li:after {
+  position: absolute;
+  right: 50%;
+  top: 0;
+  left: 50%;
+  display: block;
+  height: 2px;
+  margin: auto;
+  content: "";
+  background: transparent;
+  transition: all 0.2s ease, background-color 0.2s ease;
+}
+.header .header-bottom .main-menu .sj-flat-menu > li.fm-active:after {
+  background: #6857b9;
+  left: 0;
+  right: 0;
+}
+.header .header-bottom .main-menu .sj-flat-menu > li:hover::after {
+  right: 0px;
+  left: 0;
+  background: #6857b9;
+}
+.header .header-bottom .main-menu .sj-flat-menu > li .fm-item .fm-link {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.header .header-bottom .main-menu .sj-flat-menu > li .fm-item .fm-link a {
+  color: #222222;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 600;
+  line-height: 30px;
+}
+.header .header-bottom .main-menu .sj-flat-menu > li .fm-item .fm-link a:hover {
+  color: #6857b9;
+  text-decoration: none;
+}
+.header .header-bottom .main-menu .sj-flat-menu > li > .fm-item .fm-button {
+  right: -20px;
+}
+.header .header-bottom .main-menu .sj-flat-menu.flyout-menu li ul {
+  background: #fff;
+  border: none;
+  text-align: left;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.header .header-bottom .main-menu .sj-flat-menu.flyout-menu li ul li {
+  background-color: transparent;
+  border-bottom: 1px solid #dddddd;
+  padding: 0px 0px;
+  margin: 0 20px;
+}
+.header .header-bottom .main-menu .sj-flat-menu.flyout-menu li ul li .fm-item .fm-link a {
+  text-transform: none;
+  display: block;
+  margin: 0 0px;
+  padding: 8px 0;
+}
+.header .header-bottom .main-menu .sj-flat-menu.flyout-menu li ul li .fm-container.direction-left {
+  top: 0px !important;
+}
+.header .header-bottom .main-menu .sj-flat-menu.flyout-menu li ul li .fm-item .fm-button {
+  right: -10px;
+}
+.header .header-bottom .main-menu .sj-flat-menu.flyout-menu li ul li .fm-item .fm-button img {
+  webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.header .header-bottom .main-menu .sj-flat-menu.flyout-menu li ul li .fm-item:hover .fm-button img {
+  webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.header .header-bottom .main-menu .sj-flat-menu.flyout-menu li ul li:last-child {
+  border-bottom: none;
+}
+
+.header.sticky-top {
+  background: #fff;
+}
+
+.wrapper-boxed .body-innerwrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#section1 {
+  padding-top: 30px;
+}
+
+/*=============Mod on home===============*/
+ul.mod-socials {
+  margin: 50px 0 0;
+  border-left: 1px solid #dddddd;
+}
+ul.mod-socials li {
+  margin-left: 20px;
+  display: inline-block;
+}
+ul.mod-socials li a {
+  font-size: 0px;
+  text-align: center;
+  color: #222222;
+  display: block;
+}
+ul.mod-socials li a i:before {
+  font-size: 16px;
+  font-family: "icomoon";
+}
+ul.mod-socials li a:hover {
+  color: #6857b9;
+}
+
+.module.basic-slide .sj-basic-news {
+  margin: 0;
+  overflow: visible;
+}
+.module.basic-slide .sj-basic-news .bs-items .bs-item {
+  margin-bottom: 0;
+}
+.module.basic-slide .sj-basic-news .bs-items .bs-item .bs-image {
+  width: 100%;
+  margin: 0 0 15px;
+  padding: 0;
+  position: relative;
+}
+.module.basic-slide .sj-basic-news .bs-items .bs-item .bs-image .bs-cat {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #6857b9;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  font-weight: 300;
+}
+.module.basic-slide .sj-basic-news .bs-items .bs-item .bs-image .bs-cat:hover {
+  text-decoration: none;
+}
+.module.basic-slide .sj-basic-news .bs-items .bs-item .bs-image img:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+.module.basic-slide .sj-basic-news .bs-items .bs-item .bs-image:hover {
+  opacity: 1;
+}
+.module.basic-slide .sj-basic-news .bs-items .bs-item .bs-content {
+  position: unset;
+  right: 0;
+  bottom: 0px;
+  left: 0;
+  z-index: 10;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #666666;
+  text-align: left;
+  font-size: 14px;
+}
+.module.basic-slide .sj-basic-news .bs-items .bs-item .bs-content .bs-title a {
+  color: #222222;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  display: block;
+}
+.module.basic-slide .sj-basic-news .bs-items .bs-item .bs-content .bs-title a:hover {
+  color: #6857b9;
+  text-decoration: none;
+}
+.module.basic-slide .sj-basic-news .bs-items .bs-item .bs-content .bs-author-date {
+  font-size: 13px;
+  color: #6857b9;
+  border-bottom: 1px solid #6857b9;
+  display: inline-block;
+  text-transform: capitalize;
+  font-style: italic;
+}
+.module.basic-slide .sj-basic-news .bs-items .bs-item .bs-content .bs-description {
+  line-height: 27px;
+  margin: 15px 0;
+}
+.module.basic-slide .sj-basic-news .bs-items .bs-item .bs-content .bs-readmore a {
+  font-size: 12px;
+  color: #6857b9;
+}
+.module.basic-slide .sj-basic-news .bs-items .bs-item .bs-content .bs-readmore a:after {
+  content: "";
+  font-size: 12px;
+  font-family: "icomoon";
+  margin-left: 5px;
+  float: right;
+  margin-top: 2px;
+}
+.module.basic-slide .sj-basic-news .bs-items .bs-item .bs-content .bs-readmore a:hover {
+  color: #222222;
+  text-decoration: none;
+}
+.module.basic-slide .sj-basic-news .owl-nav {
+  position: relative;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.module.basic-slide .sj-basic-news .owl-nav > a {
+  background: #222222;
+  border: none;
+  border-radius: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  opacity: 1;
+  z-index: 1;
+  top: 185px;
+  bottom: auto;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin: 0px 0px;
+}
+.module.basic-slide .sj-basic-news .owl-nav > a span {
+  display: none;
+}
+.module.basic-slide .sj-basic-news .owl-nav > a:hover {
+  background: #6857b9;
+}
+.module.basic-slide .sj-basic-news .owl-nav > a:before {
+  font-family: "icomoon";
+  content: "";
+  display: inline-block;
+}
+.module.basic-slide .sj-basic-news .owl-nav .owl-prev {
+  left: 20px;
+  right: auto;
+}
+.module.basic-slide .sj-basic-news .owl-nav .owl-prev:before {
+  content: "";
+}
+.module.basic-slide .sj-basic-news .owl-nav .owl-next {
+  left: auto;
+  right: 20px;
+}
+.module.basic-slide .sj-basic-news .owl-dots {
+  position: absolute;
+  right: 0;
+  bottom: auto;
+  left: auto;
+  top: -25px;
+  z-index: 15;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  margin: 0 -3px;
+  list-style: none;
+  display: none;
+}
+.module.basic-slide .sj-basic-news .owl-dots li {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  margin: 0 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #999;
+  background-clip: padding-box;
+  border: none;
+  opacity: 1;
+  transition: all 0.4s ease 0s;
+}
+.module.basic-slide .sj-basic-news .owl-dots li.active, .module.basic-slide .sj-basic-news .owl-dots li:hover {
+  background: #6857b9;
+}
+.module.basic-slide .sj-basic-news:hover .owl-nav {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.module.slider-style2 {
+  margin-top: -4px;
+  margin-bottom: 25px;
+}
+.module.slider-style2 .sj-basic-news .bs-items .bs-item {
+  margin-bottom: 20px;
+}
+.module.slider-style2 .sj-basic-news .bs-items .bs-item .bs-content .bs-title a {
+  font-size: 16px;
+  line-height: 20px;
+}
+.module.slider-style2 .sj-basic-news .bs-items .bs-item .bs-content .bs-author-date {
+  border-bottom: none;
+  color: #666666;
+}
+.module.slider-style2 .sj-basic-news .owl-nav {
+  display: none;
+}
+.module.slider-style2 .sj-basic-news .owl-dots {
+  display: flex;
+}
+
+.module.slider-style3 {
+  margin-top: -4px;
+  margin-bottom: 20px;
+}
+.module.slider-style3 .sj-basic-news .bs-items .bs-item {
+  margin-bottom: 20px;
+}
+.module.slider-style3 .sj-basic-news .bs-items .bs-item .bs-image {
+  width: 69px;
+  overflow: hidden;
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+.module.slider-style3 .sj-basic-news .bs-items .bs-item .bs-image img {
+  height: 69px;
+  border-radius: 100%;
+}
+.module.slider-style3 .sj-basic-news .bs-items .bs-item .bs-content .bs-title a {
+  font-size: 14px;
+  line-height: 18px;
+}
+.module.slider-style3 .sj-basic-news .bs-items .bs-item .bs-content .bs-author-date {
+  border-bottom: none;
+  color: #666666;
+}
+.module.slider-style3 .sj-basic-news .bs-items .bs-item.last {
+  margin-bottom: 20px;
+}
+.module.slider-style3 .sj-basic-news .owl-nav {
+  display: none;
+}
+.module.slider-style3 .sj-basic-news .owl-dots {
+  display: flex;
+}
+
+.module.slider-style4 {
+  margin-bottom: 30px;
+}
+.module.slider-style4 .sj-basic-news .bs-items .bs-item {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+}
+.module.slider-style4 .sj-basic-news .bs-items .bs-item .bs-image {
+  display: none;
+}
+.module.slider-style4 .sj-basic-news .bs-items .bs-item .bs-content .bs-title a {
+  font-size: 14px;
+  line-height: 18px;
+}
+.module.slider-style4 .sj-basic-news .bs-items .bs-item .bs-content .bs-author-date {
+  border-bottom: none;
+  color: #666666;
+}
+.module.slider-style4 .sj-basic-news .bs-items .bs-item.bs-show-line {
+  border-bottom: 1px solid #dddddd;
+}
+.module.slider-style4 .sj-basic-news .bs-items .bs-item.last {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.module.slider-style4 .sj-basic-news .owl-nav {
+  display: none;
+}
+.module.slider-style4 .sj-basic-news .owl-dots {
+  display: flex;
+}
+
+.module.slider-style5 .sj-basic-news .bs-items .bs-item {
+  margin-bottom: 20px;
+}
+.module.slider-style5 .sj-basic-news .bs-items .bs-item .bs-image {
+  width: 100%;
+  margin: 0 0 15px;
+}
+.module.slider-style5 .sj-basic-news .bs-items .bs-item .bs-content .bs-title a {
+  font-size: 14px;
+  line-height: 18px;
+}
+.module.slider-style5 .sj-basic-news .bs-items .bs-item .bs-content .bs-author-date {
+  border-bottom: none;
+  color: #666666;
+}
+.module.slider-style5 .sj-basic-news .owl-nav {
+  display: none;
+}
+.module.slider-style5 .sj-basic-news .owl-dots {
+  display: flex;
+}
+
+.module.basic-style {
+  position: relative;
+}
+.module.basic-style .bs-pretext {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.module.basic-style .bs-pretext a {
+  color: #666666;
+}
+.module.basic-style .bs-pretext a:after {
+  content: "";
+  font-size: 12px;
+  font-family: "icomoon";
+  margin-left: 5px;
+  float: right;
+  margin-top: 2px;
+}
+.module.basic-style .bs-pretext a:hover {
+  color: #6857b9;
+  text-decoration: none;
+}
+.module.basic-style .sj-basic-news {
+  margin: 0;
+  overflow: visible;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item {
+  margin: 0 0 20px;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item .bs-image {
+  width: 270px;
+  margin: 0px 30px 0 0px;
+  padding: 0;
+  position: relative;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item .bs-image .bs-cat {
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #6857b9;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  font-weight: 300;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item .bs-image .bs-cat:hover {
+  text-decoration: none;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item .bs-image img:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item .bs-image:hover {
+  opacity: 1;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item .bs-content .bs-cat {
+  display: inline-block;
+  background: #6857b9;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  font-weight: 300;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item .bs-content .bs-cat:hover {
+  text-decoration: none;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item .bs-content .bs-title {
+  margin-top: 10px;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item .bs-content .bs-title a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #222222;
+  padding-bottom: 10px;
+  display: block;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item .bs-content .bs-title a:hover {
+  color: #6857b9;
+  text-decoration: none;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item .bs-content .bs-author-date {
+  font-size: 13px;
+  color: #666666;
+  display: inline-block;
+  text-transform: capitalize;
+  font-style: italic;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item .bs-content .bs-description {
+  line-height: 25px;
+  margin: 10px 0;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item .bs-content .bs-description p {
+  margin-bottom: 0;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item .bs-content .bs-readmore a {
+  font-size: 12px;
+  color: #6857b9;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item .bs-content .bs-readmore a:after {
+  content: "";
+  font-size: 12px;
+  font-family: "icomoon";
+  margin-left: 5px;
+  float: right;
+  margin-top: 2px;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item .bs-content .bs-readmore a:hover {
+  color: #222222;
+  text-decoration: none;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item.bs-show-line {
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 20px;
+}
+.module.basic-style .sj-basic-news .bs-items .bs-item.last {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.module.basic-style1 .sj-basic-news .bs-items {
+  width: auto;
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  align-items: end;
+}
+.module.basic-style1 .sj-basic-news .bs-items .bs-item {
+  position: relative;
+  padding: 0 15px;
+}
+.module.basic-style1 .sj-basic-news .bs-items .bs-item .bs-image {
+  width: 100%;
+  margin: 0px;
+  padding: 0;
+}
+.module.basic-style1 .sj-basic-news .bs-items .bs-item .bs-image:before {
+  content: "";
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  pointer-events: none;
+}
+.module.basic-style1 .sj-basic-news .bs-items .bs-item .bs-content {
+  position: absolute;
+  left: 35px;
+  right: 35px;
+  bottom: 22px;
+}
+.module.basic-style1 .sj-basic-news .bs-items .bs-item .bs-content .bs-title {
+  margin-top: 15px;
+}
+.module.basic-style1 .sj-basic-news .bs-items .bs-item .bs-content .bs-title a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+  padding-bottom: 10px;
+  display: block;
+}
+.module.basic-style1 .sj-basic-news .bs-items .bs-item .bs-content .bs-title a:hover {
+  color: #6857b9;
+  text-decoration: none;
+}
+
+.module.basic-style2 .sj-basic-news .bs-items .bs-item {
+  margin-bottom: 20px;
+}
+.module.basic-style2 .sj-basic-news .bs-items .bs-item .bs-image {
+  width: 60px !important;
+  margin: 0px 20px 0 0 !important;
+  overflow: hidden;
+}
+.module.basic-style2 .sj-basic-news .bs-items .bs-item .bs-image img {
+  height: 60px;
+  border-radius: 100%;
+}
+.module.basic-style2 .sj-basic-news .bs-items .bs-item .bs-content .bs-title {
+  margin-top: 0px;
+}
+.module.basic-style2 .sj-basic-news .bs-items .bs-item .bs-content .bs-title a {
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  padding-bottom: 5px;
+  display: block;
+}
+.module.basic-style2 .sj-basic-news .bs-items .bs-item .bs-content .bs-title a:hover {
+  color: #6857b9;
+  text-decoration: none;
+}
+.module.basic-style2 .sj-basic-news .bs-items .bs-item .bs-content .bs-author-date {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.module.basic-style3 {
+  margin-bottom: 50px !important;
+}
+.module.basic-style3 .sj-basic-news .bs-items {
+  display: grid;
+  grid-template-columns: 48.2% 48.2%;
+  grid-gap: 30px;
+}
+.module.basic-style3 .sj-basic-news .bs-items .bs-item {
+  margin-bottom: 0px;
+}
+.module.basic-style3 .sj-basic-news .bs-items .bs-item .bs-image {
+  width: 100%;
+  margin: 0px 0 25px !important;
+}
+.module.basic-style3 .sj-basic-news .bs-items .bs-item .bs-image .bs-cat {
+  display: block;
+}
+.module.basic-style3 .sj-basic-news .bs-items .bs-item .bs-content .bs-cat {
+  display: none;
+}
+.module.basic-style3 .sj-basic-news .bs-items .bs-item .bs-content .bs-title a {
+  line-height: 20px;
+}
+.module.basic-style4 .sj-basic-news .bs-items {
+  margin: 0 -15px;
+  width: auto;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item {
+  width: 50%;
+  float: left;
+  padding: 0 15px;
+  margin: 0px 0 21px;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item .bs-image {
+  width: 170px;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item .bs-image .bs-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -20px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  font-size: 0px;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item .bs-image .bs-video .videoModal {
+  max-width: 95%;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item .bs-image .bs-video a {
+  display: inline-block;
+  color: #222222;
+  line-height: 40px;
+  border-radius: 100%;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item .bs-image .bs-video a:before {
+  content: "";
+  font-family: "icomoon";
+  font-size: 18px;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item .bs-image .bs-video a:hover {
+  background: #6857b9;
+  color: #fff;
+  text-decoration: none;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item .bs-image .bs-cat {
+  display: block;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item .bs-content .bs-cat {
+  display: none;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item .bs-content .bs-title {
+  margin-top: 15px;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item:first-child {
+  position: relative;
+  margin-bottom: 0;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item:first-child .bs-image {
+  width: 100%;
+  margin: 0px !important;
+  position: relative;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item:first-child .bs-image:before {
+  content: "";
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  pointer-events: none;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item:first-child .bs-image .bs-video a {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item:first-child .bs-image .bs-cat {
+  display: none;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item:first-child .bs-content {
+  position: absolute;
+  left: 45px;
+  right: 45px;
+  bottom: 25px;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item:first-child .bs-content .bs-cat {
+  display: block;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item:first-child .bs-content .bs-title a {
+  color: #fff;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item:first-child .bs-content .bs-title a:hover {
+  color: #6857b9;
+}
+.module.basic-style4 .sj-basic-news .bs-items .bs-item:first-child .bs-content .bs-author-date {
+  color: #fff;
+}
+
+.banners {
+  text-align: center;
+}
+.banners img:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+.module.block-social-counter {
+  background: #f5f5f5;
+  padding: 25px 20px 25px;
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap {
+  margin: 0 -5px;
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap .sc-item {
+  height: 35px;
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap .sc-item .sc-item-inner > a {
+  display: block;
+  height: 35px;
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap .sc-item .sc-icon {
+  width: 40px;
+  height: 35px;
+  line-height: 35px;
+  margin-right: 30px;
+  border: none;
+  background: none;
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap .sc-item .sc-icon:before {
+  content: "";
+  font-size: 18px;
+  font-family: "icomoon";
+  color: #fff;
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap .sc-item .like-count {
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  line-height: 35px;
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap .sc-item .like-text {
+  font-size: 14px;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  line-height: 35px;
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap .sc-item.fb-like-button .sc-item-inner {
+  background: #5c77b4;
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap .sc-item.fb-like-button .sc-item-inner .sc-icon {
+  background: #516eab;
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap .sc-item.twitter-like-button .sc-item-inner {
+  background: #29b7e4;
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap .sc-item.twitter-like-button .sc-item-inner .sc-icon {
+  background: #29c5f6;
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap .sc-item.twitter-like-button .sc-item-inner .sc-icon:before {
+  content: "";
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap .sc-item.youtube-subscribers-button .sc-item-inner {
+  background: #f35d4e;
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap .sc-item.youtube-subscribers-button .sc-item-inner .sc-icon {
+  background: #e14e42;
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap .sc-item.youtube-subscribers-button .sc-item-inner .sc-icon:before {
+  content: "";
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap .sc-item.instagram-like-button .sc-item-inner {
+  background: #d385f9;
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap .sc-item.instagram-like-button .sc-item-inner .sc-icon {
+  background: #c055f4;
+}
+.module.block-social-counter .sj-social-media-counts .sc-wrap .sc-item.instagram-like-button .sc-item-inner .sc-icon:before {
+  content: "";
+}
+
+.module.block-newsletters {
+  background: #f5f5f5;
+  padding: 25px 20px 15px;
+}
+.module.block-newsletters .acymailing_module {
+  margin-bottom: 0px !important;
+}
+.module.block-newsletters .acymailing_module .acymailing_module_form .acymailing_introtext {
+  margin-bottom: 18px !important;
+  line-height: 18px;
+}
+.module.block-newsletters .acymailing_module .acymailing_form {
+  position: relative;
+  height: 45px;
+  line-height: 45px;
+  background: #fff;
+  border-radius: 0px;
+  margin-bottom: 20px !important;
+}
+.module.block-newsletters .acymailing_module .acymailing_form .fieldacyemail {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0;
+}
+.module.block-newsletters .acymailing_module .acymailing_form .fieldacyemail input {
+  border: 1px solid #dddddd;
+  border-radius: 0px;
+  font-size: 12px;
+  color: #999;
+  padding: 0px 15px;
+  line-height: 45px;
+  transition: all 0.3s ease-in-out 0s;
+}
+.module.block-newsletters .acymailing_module .acymailing_form .fieldacyemail input:focus {
+  box-shadow: none;
+  outline: none;
+}
+.module.block-newsletters .acymailing_module .acymailing_form .acysubbuttons {
+  display: inline-block;
+  margin-bottom: 0;
+  position: absolute;
+  right: 0;
+  top: -1px;
+}
+.module.block-newsletters .acymailing_module .acymailing_form .acysubbuttons input {
+  border: none;
+  border-radius: 0;
+  background: #6857b9;
+  color: #fff;
+  padding: 0px 40px;
+  line-height: 47px;
+  text-transform: uppercase;
+}
+.module.block-newsletters .acymailing_module .acymailing_form .acysubbuttons input:hover {
+  background: #222222;
+}
+.module.block-newsletters .acymailing_module .acymailing_finaltext {
+  font-size: 15px;
+}
+
+.module .sj-instagram-gallery {
+  overflow: visible;
+  position: relative;
+}
+.module .sj-instagram-gallery .instagram-wrap {
+  overflow: visible;
+  margin: -5px;
+  border: none;
+}
+.module .sj-instagram-gallery .instagram-wrap .instagram-items-container,
+.module .sj-instagram-gallery .instagram-wrap .instagram-items-inner {
+  overflow: visible;
+}
+.module .sj-instagram-gallery .instagram-wrap .owl-stage-outer {
+  overflow: hidden;
+}
+.module .sj-instagram-gallery .instagram-wrap .owl-item {
+  float: left;
+}
+.module .sj-instagram-gallery .instagram-wrap .owl-item .instagram-item .img_users img {
+  height: 94px;
+}
+.module .sj-instagram-gallery .instagram-wrap .owl-item .instagram-item .img_users img:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+.module .sj-instagram-gallery .instagram-wrap .owl-nav {
+  position: relative;
+}
+.module .sj-instagram-gallery .instagram-wrap .owl-nav > a {
+  background: #222222;
+  border: none;
+  border-radius: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  opacity: 1;
+  z-index: 1;
+  top: 185px;
+  bottom: auto;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin: 0px 0px;
+}
+.module .sj-instagram-gallery .instagram-wrap .owl-nav > a span {
+  display: none;
+}
+.module .sj-instagram-gallery .instagram-wrap .owl-nav > a:hover {
+  background: #6857b9;
+}
+.module .sj-instagram-gallery .instagram-wrap .owl-nav > a:before {
+  font-family: "icomoon";
+  content: "";
+  display: inline-block;
+}
+.module .sj-instagram-gallery .instagram-wrap .owl-nav .owl-prev {
+  left: 20px;
+  right: auto;
+}
+.module .sj-instagram-gallery .instagram-wrap .owl-nav .owl-prev:before {
+  content: "";
+}
+.module .sj-instagram-gallery .instagram-wrap .owl-nav .owl-next {
+  left: auto;
+  right: 20px;
+}
+.module .sj-instagram-gallery .instagram-wrap .owl-dots {
+  position: absolute;
+  right: 5px;
+  bottom: auto;
+  left: auto;
+  top: -20px;
+  z-index: 15;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  margin: 0 -3px;
+  list-style: none;
+}
+.module .sj-instagram-gallery .instagram-wrap .owl-dots .owl-dot {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  margin: 0 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #999;
+  background-clip: padding-box;
+  border: none;
+  opacity: 1;
+  transition: all 0.4s ease 0s;
+}
+.module .sj-instagram-gallery .instagram-wrap .owl-dots .owl-dot.active, .module .sj-instagram-gallery .instagram-wrap .owl-dots .owl-dot:hover {
+  background: #6857b9;
+}
+
+/*=============Footer===============*/
+#bottom {
+  background: #17222b;
+}
+#bottom a {
+  color: #fffefe;
+}
+#bottom a:hover {
+  color: #6857b9;
+}
+#bottom .module {
+  margin-bottom: 60px;
+}
+#bottom .module h3 {
+  color: #fffefe;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+#bottom .bottom-top .container {
+  padding-top: 60px;
+  border-bottom: 1px dashed #2f3941;
+}
+#bottom .bottom-bot .container {
+  padding-top: 40px;
+}
+#bottom p.logo-footer {
+  margin: 0;
+}
+#bottom ul.mod-app {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 -5px;
+}
+#bottom ul.mod-app li {
+  border: 1px solid #dcdcdc;
+  padding: 0 10px;
+  border-radius: 10px;
+  line-height: 40px;
+  margin: 0 5px;
+}
+#bottom ul.mod-app li a {
+  font-size: 12px;
+  color: #fffefe;
+}
+#bottom ul.mod-app li a:before {
+  content: "";
+  display: inline-block;
+  background: url(../images/app-store.png) no-repeat 0 0;
+  width: 20px;
+  height: 23px;
+  margin-right: 8px;
+  vertical-align: -7px;
+}
+#bottom ul.mod-app li.app-store a:before {
+  width: 25px;
+  background: url(../images/app-store.png) no-repeat 0 bottom;
+}
+#bottom ul.mod-app li:hover {
+  border-color: #6857b9;
+}
+#bottom .bottom-4.module,
+#bottom .bottom-5.module {
+  border-right: 1px dashed #2f3941;
+}
+#bottom ul.mod-menu {
+  display: flex;
+  flex-direction: row;
+  margin: 0 -10px;
+}
+#bottom ul.mod-menu li {
+  margin: 0 10px;
+}
+#bottom ul.mod-articlescategories {
+  margin: 0 -15px;
+  margin-top: -12px;
+  padding: 0;
+  overflow: hidden;
+}
+#bottom ul.mod-articlescategories li {
+  list-style: none;
+  margin: 12px 0 0;
+  width: 50%;
+  float: left;
+}
+#bottom ul.mod-articlescategories li h4 {
+  font-weight: 500;
+}
+#bottom ul.mod-articlescategories li h4 a {
+  padding: 0 15px;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+#bottom .bottom-2 ul.mod-socials {
+  margin: 0 -2px;
+  border: none !important;
+}
+#bottom .bottom-2 ul.mod-socials li {
+  margin: 0 2px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 100%;
+  text-align: center;
+  background: #454e55;
+}
+#bottom .bottom-2 ul.mod-socials li i {
+  line-height: 40px;
+  width: auto;
+  height: auto;
+}
+#bottom .bottom-2 ul.mod-socials li i:before {
+  display: inline-block;
+  color: #fff;
+}
+#bottom .bottom-2 ul.mod-socials li:hover {
+  background: #6857b9;
+}
+
+#footer {
+  padding: 22px 0;
+  background: #212f3b;
+  color: #fffefe;
+}
+#footer a {
+  color: #fffefe;
+}
+#footer a:hover {
+  color: #6857b9;
+}
+#footer p {
+  margin-bottom: 0;
+}
+#footer ul.mod-menu {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin: 0 -10px;
+}
+#footer ul.mod-menu li {
+  margin: 0 10px;
+}
+
+#back-top {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  color: #fff;
+}
+#back-top:hover {
+  color: #6857b9;
+}
+
+#breadcrumbs {
+  margin-bottom: 10px;
+}
+#breadcrumbs .breadcrumb {
+  margin: 0;
+  padding: 20px 0rem;
+  background-color: transparent;
+}
+#breadcrumbs .breadcrumb .fa-home {
+  padding-right: 0.5rem;
+}
+#breadcrumbs .breadcrumb .breadcrumb-item + .breadcrumb-item:before {
+  color: #666666;
+  content: "";
+  font-family: "icomoon";
+}
+#breadcrumbs .breadcrumb .breadcrumb-item a, #breadcrumbs .breadcrumb .breadcrumb-item span {
+  font-style: italic;
+  font-size: 13px;
+}
+
+.container-component,
+.container-sidebar-right,
+.container-sidebar-left {
+  flex-direction: column;
+}
+
+.container-component main {
+  margin-bottom: 50px !important;
+}
+
+.home-page .container-component main {
+  margin-bottom: 0px !important;
+}
+
+/*================component content, search, tag, user================*/
+.blog-featured .page-header h1,
+.blog .page-header h1 {
+  color: #6857b9;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.blog-featured .blog-items,
+.blog .blog-items {
+  display: grid;
+  margin: 0 0 30px;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+}
+.blog-featured .blog-items .blog-item,
+.blog .blog-items .blog-item {
+  display: block;
+}
+.blog-featured .blog-items .blog-item .item-img-box,
+.blog .blog-items .blog-item .item-img-box {
+  width: 270px;
+  margin: 0 30px 0 0;
+  float: left;
+  position: relative;
+}
+.blog-featured .blog-items .blog-item .item-img-box .category-name,
+.blog .blog-items .blog-item .item-img-box .category-name {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #6857b9;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  font-weight: 300;
+}
+.blog-featured .blog-items .blog-item .item-img-box .category-name a,
+.blog .blog-items .blog-item .item-img-box .category-name a {
+  color: #fff;
+}
+.blog-featured .blog-items .blog-item .item-image,
+.blog .blog-items .blog-item .item-image {
+  margin: 0;
+}
+.blog-featured .blog-items .blog-item .item-image img:hover,
+.blog .blog-items .blog-item .item-image img:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+.blog-featured .blog-items .blog-item .item-content .item-title,
+.blog-featured .blog-items .blog-item .item-content h2,
+.blog .blog-items .blog-item .item-content .item-title,
+.blog .blog-items .blog-item .item-content h2 {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 5px;
+}
+.blog-featured .blog-items .blog-item .item-content dl.article-info,
+.blog .blog-items .blog-item .item-content dl.article-info {
+  font-size: 13px;
+  color: #6857b9;
+  display: inline-block;
+  text-transform: capitalize;
+  font-style: italic;
+}
+.blog-featured .blog-items .blog-item .item-content dl.article-info dd,
+.blog .blog-items .blog-item .item-content dl.article-info dd {
+  display: inline-block;
+}
+.blog-featured .blog-items .blog-item .item-content .p,
+.blog .blog-items .blog-item .item-content .p {
+  line-height: 25px;
+  margin: 15px 0;
+}
+.blog-featured .blog-items .blog-item .item-content p.readmore,
+.blog .blog-items .blog-item .item-content p.readmore {
+  margin: 0;
+}
+.blog-featured .blog-items .blog-item .item-content p.readmore a,
+.blog .blog-items .blog-item .item-content p.readmore a {
+  font-size: 12px;
+  color: #6857b9;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+.blog-featured .blog-items .blog-item .item-content p.readmore a:after,
+.blog .blog-items .blog-item .item-content p.readmore a:after {
+  content: "";
+  font-size: 12px;
+  font-family: "icomoon";
+  margin-left: 5px;
+  float: right;
+  margin-top: 2px;
+}
+.blog-featured .blog-items .blog-item .item-content p.readmore a:hover,
+.blog .blog-items .blog-item .item-content p.readmore a:hover {
+  color: #222222;
+  background-color: transparent;
+}
+.blog-featured .blog-items .blog-item .item-content .fields-container,
+.blog .blog-items .blog-item .item-content .fields-container {
+  display: none;
+}
+
+.category-list .com-content-category__filters legend {
+  display: none;
+}
+.category-list .com-content-category__filter-submit {
+  display: none;
+}
+.category-list .com-content-category__table {
+  margin-top: 15px;
+}
+
+.categories-list h3 {
+  font-size: 16px;
+}
+
+.item-page .item-img-box {
+  margin: 0 0 20px;
+  position: relative;
+  display: flex;
+}
+.item-page .item-img-box .item-image {
+  margin: 0;
+}
+.item-page .item-img-box .category-name {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #6857b9;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  font-weight: 300;
+}
+.item-page .item-img-box .category-name a {
+  color: #fff;
+}
+.item-page .item-image {
+  margin: 0;
+}
+.item-page .item-image img:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+.item-page .page-header h2 {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 5px;
+  color: #222222;
+}
+.item-page dl.article-info {
+  font-size: 13px;
+  color: #6857b9 !important;
+  border-bottom: 1px solid #6857b9;
+  display: inline-block;
+  text-transform: capitalize;
+  font-style: italic;
+}
+.item-page dl.article-info dd {
+  display: inline-block;
+}
+.item-page .p {
+  line-height: 25px;
+  margin: 15px 0;
+}
+.item-page p.readmore {
+  margin: 0;
+}
+.item-page p.readmore a {
+  font-size: 12px;
+  color: #6857b9;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+.item-page p.readmore a:after {
+  content: "";
+  font-size: 12px;
+  font-family: "icomoon";
+  margin-left: 5px;
+  float: right;
+  margin-top: 2px;
+}
+.item-page p.readmore a:hover {
+  color: #222222;
+  background-color: transparent;
+}
+.item-page .fields-container {
+  display: none;
+}
+.item-page ul.tags li a {
+  background: #fff;
+  color: #222222;
+  border: 1px solid #dddddd;
+  font-weight: 400;
+}
+.item-page ul.tags li a:focus {
+  box-shadow: none;
+}
+.item-page ul.tags li a:hover {
+  color: #6857b9;
+}
+
+.pagenavigation ul.pagination {
+  margin: 20px 0 0;
+  justify-content: space-between;
+}
+.pagenavigation ul.pagination .page-link {
+  color: #222222;
+  border-radius: 0;
+}
+.pagenavigation ul.pagination .page-link:hover {
+  color: #6857b9;
+}
+.pagenavigation ul.pagination .page-link:focus {
+  box-shadow: none;
+}
+
+.counter {
+  margin: 0;
+}
+
+ul.pagination .page-link {
+  color: #222222;
+}
+ul.pagination .page-link span:before {
+  font-weight: 500;
+}
+ul.pagination .page-link:hover {
+  color: #6857b9;
+}
+ul.pagination .page-link:focus {
+  box-shadow: none;
+}
+ul.pagination .page-item.active .page-link {
+  background-color: #6857b9;
+  border-color: #6857b9;
+  color: #fff;
+}
+
+.tag-category ul.category li h3 {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.tags li a {
+  background: #fff;
+  color: #222222;
+  border: 1px solid #dddddd;
+  padding: 3px 6px;
+  font-size: 11px;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: 400;
+}
+.tags li a:hover {
+  color: #6857b9;
+  background-color: #fff;
+}
+.tags li a:focus {
+  box-shadow: none;
+}
+
+#myLogin .modal-dialog {
+  width: 360px;
+  margin: 100px auto;
+  z-index: 999;
+}
+#myLogin .modal-dialog .modal-content {
+  padding: 25px;
+  border-radius: 0;
+}
+#myLogin .modal-dialog .modal-content .modal-header {
+  border-bottom: 0;
+  padding: 0;
+}
+#myLogin .modal-dialog .modal-content h3 {
+  font-size: 24px;
+  color: #1c1c1c;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+#myLogin .modal-dialog .modal-content .close {
+  border: none;
+  line-height: 30px;
+}
+#myLogin .modal-dialog .modal-content .close:focus {
+  box-shadow: none;
+  outline: none;
+}
+#myLogin .modal-dialog .modal-content form.mod-login .userdata button {
+  text-transform: uppercase;
+  border: none;
+  margin: 0;
+  background: #222222;
+  color: #fff;
+}
+#myLogin .modal-dialog .modal-content form.mod-login .userdata button:hover {
+  background: #6857b9;
+}
+#myLogin .modal-dialog .modal-content form.mod-login ul.mod-login__options {
+  border-top: 1px solid #E7E7E7;
+  margin: 20px 0 10px;
+  padding: 10px 0px 0px;
+}
+#myLogin .modal-dialog .modal-content form.mod-login ul.mod-login__options li > a {
+  color: #222222;
+}
+#myLogin .modal-dialog .modal-content form.mod-login ul.mod-login__options li > a:hover {
+  color: #6857b9;
+}
+
+.view-login .com-users-login.login .com-users-login__remember {
+  display: flex;
+  margin: 10px 0;
+}
+.view-login .com-users-login.login .com-users-login__remember input {
+  margin: 5px;
+}
+.view-login .com-users-login__options {
+  margin-top: 20px;
+}
+.view-login .com-users-login__options .list-group-item {
+  border: none;
+  padding: 5px 0rem;
+}
+
+.view-registration .com-users-registration__submit {
+  margin-top: 20px;
+}
+
+.view-profile .com-users-profile__edit {
+  width: auto;
+}
+.view-profile .com-users-profile__core {
+  width: 100%;
+}
+
+.reset .btn-primary,
+.remind .btn-primary {
+  margin-top: 20px;
+}
+
+.mod-login-logout {
+  display: flex;
+  font-size: 13px;
+  justify-content: flex-end;
+}
+.mod-login-logout .logout-button input {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 13px;
+  color: #fff;
+  padding: 0;
+}
+.mod-login-logout .logout-button input:hover {
+  color: #6857b9;
+}
+
+.contact .page-header {
+  display: none;
+}
+.contact .map {
+  margin-bottom: 20px;
+}
+.contact .contact-address .jicons-text {
+  font-weight: 600;
+  color: #222222;
+}
+.contact .contact-address dd {
+  margin-bottom: 10px;
+}
+.contact .contact-miscinfo .jicons-text {
+  font-weight: 600;
+  color: #222222;
+}
+.contact .contact-form legend,
+.contact .contact-form .control-group.field-spacer {
+  display: none;
+}
+.contact .contact-form .control-group {
+  margin-bottom: 5px;
+  position: relative;
+}
+.contact .contact-form .control-group .btn-primary {
+  margin-top: 20px;
+}
+.contact .contact-form .control-group textarea.form-control {
+  height: 150px;
+}
+.contact .contact-form .control-group .form-control-feedback {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.sidebar-right .categories-module,
+.sidebar-left .categories-module {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sidebar-right .categories-module li,
+.sidebar-left .categories-module li {
+  margin-top: 10px;
+  border-bottom: 1px solid #dddddd;
+}
+.sidebar-right .categories-module li h4,
+.sidebar-left .categories-module li h4 {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.sidebar-right .categories-module li:hover,
+.sidebar-left .categories-module li:hover {
+  text-transform: uppercase;
+}
+.sidebar-right .mod-tagspopular ul,
+.sidebar-left .mod-tagspopular ul {
+  padding: 0;
+  margin: 0 0px;
+  list-style: none;
+}
+.sidebar-right .mod-tagspopular ul li,
+.sidebar-left .mod-tagspopular ul li {
+  margin: 0 0px 3px;
+  display: inline-block;
+}
+.sidebar-right .mod-tagspopular ul li a,
+.sidebar-left .mod-tagspopular ul li a {
+  background: #fff;
+  color: #222222;
+  border: 1px solid #dddddd;
+  padding: 0px 6px;
+  font-size: 11px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.sidebar-right .mod-tagspopular ul li a:hover,
+.sidebar-left .mod-tagspopular ul li a:hover {
+  color: #6857b9;
+}
+
+/*================Responsive================*/
+@media (max-width: 767px) {
+  #header .top-1,
+#header .user-1,
+#header ul.mod-socials {
+    display: none;
+  }
+
+  .module.basic-slide .sj-basic-news .owl-nav {
+    position: unset;
+  }
+  .module.basic-slide .sj-basic-news .owl-nav > a {
+    top: 22%;
+  }
+
+  .module .sj-instagram-gallery .instagram-wrap .owl-item .instagram-item .img_users img {
+    height: auto;
+  }
+
+  .module.basic-style1 .sj-basic-news .bs-items {
+    display: block;
+  }
+
+  .module.basic-style .sj-basic-news .bs-items .bs-item .bs-image {
+    width: 100%;
+    margin: 0px 0 20px 0px;
+  }
+
+  .module.basic-style3 .sj-basic-news .bs-items {
+    display: block;
+  }
+  .module.basic-style3 .sj-basic-news .bs-items .bs-item {
+    margin-bottom: 20px;
+  }
+
+  .module.basic-style4 .sj-basic-news .bs-items .bs-item {
+    width: 100%;
+  }
+  .module.basic-style4 .sj-basic-news .bs-items .bs-item .bs-image {
+    width: 170px;
+    margin: 0 20px 0px 0;
+  }
+  .module.basic-style4 .sj-basic-news .bs-items .bs-item:first-child {
+    margin-bottom: 20px;
+  }
+
+  #bottom .module {
+    margin-bottom: 30px;
+  }
+  #bottom ul.mod-app {
+    justify-content: flex-start;
+  }
+
+  #footer {
+    text-align: center;
+  }
+  #footer ul.mod-menu {
+    justify-content: center;
+    margin: 10px 0 0;
+  }
+
+  .blog-featured .blog-items .blog-item .item-img-box, .blog .blog-items .blog-item .item-img-box {
+    width: 100%;
+    margin: 0 0px 30px 0;
+  }
+
+  .header .header-bottom .main-menu {
+    position: relative;
+  }
+  .header .header-bottom .main-menu .pretext {
+    color: #222222;
+    font-size: 16px;
+    line-height: 50px;
+    display: block;
+    font-weight: 600;
+  }
+  .header .header-bottom .main-menu .pretext:before {
+    content: "";
+    font-family: "icomoon";
+    display: inline-block;
+    vertical-align: -2px;
+    margin-right: 5px;
+  }
+  .header .header-bottom .main-menu .pretext:hover {
+    color: #6857b9;
+    cursor: pointer;
+  }
+  .header .header-bottom .main-menu .sj-flat-menu.flyout-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 93%;
+    background: #fff;
+    text-align: left;
+  }
+  .header .header-bottom .main-menu .sj-flat-menu.flyout-menu > li {
+    margin: 0;
+    background: #fff;
+    border-bottom: 1px solid #dddddd;
+  }
+  .header .header-bottom .main-menu .sj-flat-menu.flyout-menu > li .fm-item .fm-button {
+    display: inline-block;
+    right: 0;
+    z-index: 2;
+  }
+  .header .header-bottom .main-menu .sj-flat-menu.flyout-menu > li ul li .fm-item .fm-button {
+    right: -10px;
+  }
+  .header .header-bottom .main-menu .sj-flat-menu.flyout-menu > li ul li .fm-item .fm-button img {
+    webkit-transform: none;
+    transform: none;
+  }
+  .header .header-bottom .main-menu .sj-flat-menu.flyout-menu > li ul li .fm-item:hover .fm-button img {
+    webkit-transform: none;
+    transform: none;
+  }
+  .header .header-bottom .main-menu:hover .sj-flat-menu {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none;
+  }
+
+  .header .header-bottom .main-menu .sj-flat-menu > li {
+    margin: 0 8px;
+  }
+
+  ul.mod-socials li {
+    margin-left: 8px;
+  }
+
+  .module.basic-slide .sj-basic-news .owl-nav > a {
+    top: 100px;
+  }
+
+  .module.slider-style3 .sj-basic-news .bs-items .bs-item .bs-image {
+    display: none;
+  }
+
+  .module.gallery-mod {
+    display: none;
+  }
+
+  .module.block-social-counter {
+    min-height: 195px;
+  }
+
+  .module.basic-style1 .sj-basic-news .bs-items {
+    align-items: end;
+  }
+  .module.basic-style1 .sj-basic-news .bs-items .bs-item .bs-content {
+    bottom: 10px;
+  }
+  .module.basic-style1 .sj-basic-news .bs-items .bs-item .bs-content .bs-cat {
+    display: none;
+  }
+  .module.basic-style1 .sj-basic-news .bs-items .bs-item .bs-content .bs-title a {
+    font-size: 14px;
+  }
+
+  .module.basic-style .sj-basic-news .bs-items .bs-item .bs-content .bs-description {
+    display: none;
+  }
+
+  .module.basic-style4 .sj-basic-news .bs-items .bs-item {
+    width: 33.3%;
+  }
+  .module.basic-style4 .sj-basic-news .bs-items .bs-item .bs-image {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  .module.basic-style4 .sj-basic-news .bs-items .bs-item:first-child {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #bottom ul.mod-app li {
+    padding: 0 5px;
+  }
+
+  .blog-featured .blog-items .blog-item .item-img-box, .blog .blog-items .blog-item .item-img-box {
+    width: 100%;
+    margin: 0 0px 30px 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  module.block-newsletters .acymailing_module .acymailing_module_form .acymailing_introtext {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .module.block-social-counter {
+    min-height: 195px;
+  }
+
+  .module.basic-style4 .sj-basic-news .bs-items .bs-item .bs-image {
+    width: 130px;
+  }
+
+  .module.basic-slide.slider-style3 {
+    margin-bottom: 20px;
+  }
+
+  .module.slider-style4 {
+    margin-bottom: 20px;
+  }
+
+  .module.slider-style4 .sj-basic-news .bs-items .bs-item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+
+  #bottom ul.mod-app li {
+    padding: 0 4px;
+    margin: 0 2px;
+  }
+  #bottom ul.mod-app li a:before {
+    margin-right: 2px;
+  }
+}
